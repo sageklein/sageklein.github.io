@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
+
 body{
-  max-width: 992px;
   font-size: 16px;
   background-image: url(./images/tictac.png);
   color: rgba(39, 37, 28, 0.877);
@@ -10,12 +10,9 @@ body{
   z-index: 1;
 }
 
-
 .App {
   text-align: center;
 }
-
-
 
 .App-header {
   position: relative;
