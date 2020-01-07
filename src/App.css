@@ -142,8 +142,9 @@ li .link:hover {
 }
 
 .project img {
+  border: 0.1em solid black;
 	width: auto;
-	height: 30em;
+	height: 50em;
 }
 .contact {
 	position: relative;
@@ -361,11 +362,11 @@ nav li .link {
   }
   .App-header {
 	position: relative;
-	min-height: 110vh;
+	min-height: 100vh;
 }
 	header h1 {
 		font-size: 3em;
-		margin-right: 25em;
+		margin-right: 30em;
 	}
 
 	nav {
@@ -374,10 +375,10 @@ nav li .link {
 		z-index: 100;
 	}
 	nav li {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 	.header-title {
-		font-size: 5em;
+		font-size: 3em;
 		top: 1em;
 		left: 1em;
 	}
@@ -420,12 +421,12 @@ nav li .link {
 		font-size: 5em;
 	}
 	.contact .email {
-		font-size: 5em;
+		font-size: 3em;
 	}
 
 	.contact li a {
-		font-size: 4em;
-		padding: 1em;
+		font-size: 3em;
+		padding: 0em;
 	}
 	.footer {
 		top: 4em;
