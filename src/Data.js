@@ -1,5 +1,8 @@
 import me from "./images/me.jpg";
-
+import Employee from "./images/Employee1.png";
+import Persona from "./images/Persona2.png";
+import Website35 from "./images/website35.png";
+import Bangazon from "./images/BangazonFigma.png";
 
 export default {
 	name: "Sage Klein",
@@ -23,33 +26,33 @@ export default {
 	projects: [
 		{
 			id: 1,
-			title: "Project One", //Project Title - Add Your Project Title Here
-			service: "UI/UX Design", // Add Your Service Type Here
+			title: "Persona For Cheif Training Officer at Bangazon", //Project Title - Add Your Project Title Here
+			service: "UI/UX Design and Application Development", // Add Your Service Type Here
 			//Project Image - Add Your Project Image Here
-			imageSrc: "  ",
+			imageSrc: Employee,
 			//Project URL - Add Your Project Url Here
-			url: "http://sageklein.com/"
+			url: "https://nss-day-cohort-35.github.io/website/"
 		},
 		{
 			id: 2,
-			title: "Project Two",
+			title: "Persona of a Collage Student",
 			service: "Website Development",
-			imageSrc: "  ",
+			imageSrc: Persona,
 			url: "http://sageklein.com/"
 		},
 		{
 			id: 3,
-			title: "Project Three",
+			title: "Cohort 35 Website",
 			service: "Web App",
-			imageSrc: "  ",
+			imageSrc: Website35,
 			url: "http://sageklein.com/"
 		},
 		{
 			id: 4,
-			title: "Project Four",
-			service: "Branding",
-			imageSrc: "  ",
-			url: "http://sageklein.com/"
+			title: "Figma Moxk-Up for Bangazon Project",
+			service: "Hi-Fi Mock-Up for a Online Selling Platform",
+			imageSrc: Bangazon,
+			// url: "http://sageklein.com/"
 		}
 
 		/*
