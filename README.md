@@ -20,9 +20,14 @@ I have a real passion for coding and UI UX design!
 
 Hit Pan
 
+Bangazon
+
+Cohort 35 website 
+
+
 ### Personas
 
-Upon login a user will be able to see their personal make-up collection.
+I have built several Personas to use along side projects. 
 
 ### Research
 
