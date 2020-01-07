@@ -1,4 +1,5 @@
 import me from "./images/me.jpg";
+import me2 from "./images/me2.jpg";
 import Employee from "./images/Employee1.png";
 import Persona from "./images/Persona2.png";
 import Website35 from "./images/website35.png";
@@ -19,7 +20,7 @@ export default {
 	// Add Your About Text Here
 	abouttext:
 		"As a Front End Web Developer I am passionate about combining my love of coding with my love of continued learning. With UI/UX and strong communication skills I produce beautiful and well thought out design work. With a positive attitude and strong growth mindset, I am self motivated and work well in groups!",
-	aboutImage: me,
+	aboutImage: me, me2,
 
 	ShowAboutImage: true,
 

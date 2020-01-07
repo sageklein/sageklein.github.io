@@ -386,11 +386,11 @@ nav li .link {
 }
 	header h1 {
 		font-size: 2em;
-		margin-right: 52em;
+		margin-right: 54em;
 	}
 
 	nav {
-		left: 60em;
+		left: 90em;
 		top: 8em;
 		z-index: 100;
 	}

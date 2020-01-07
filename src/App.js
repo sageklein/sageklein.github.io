@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-
 import Header from './components/Header';
 import About from './components/About';
 import Work from './components/work';
@@ -14,7 +13,6 @@ function App() {
       <div className="App-header">
       <Header></Header>
       </div>
-      
       <div className='About'>
         <About></About>
       </div>
