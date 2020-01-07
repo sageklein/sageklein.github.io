@@ -38,7 +38,7 @@ header {
 	align-items: center;
 }
 header h1 {
-	font-size: 1em;
+	font-size: 1.5em;
 	font-weight: 400;
 	padding: 2em;
 	margin-right: 50em;
@@ -54,6 +54,7 @@ nav li {
 	cursor: pointer;
 }
 nav li .link {
+  font-size: 1.5em;
 	text-decoration: none;
 	color: black;
 	padding: 1em;
@@ -111,7 +112,7 @@ li .link:hover {
 	text-align: left;
 }
 .about-content p {
-	font-size: 1.3em;
+	font-size: 2em;
 	text-align: left;
 	width: 37em;
 }
@@ -141,7 +142,7 @@ li .link:hover {
 }
 
 .project img {
-	width: 30em;
+	width: auto;
 	height: 30em;
 }
 .contact {
@@ -189,9 +190,15 @@ li .link:hover {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 	body {
 		font-size: 14px;
-	}
+  }
+  
+  .App-header {
+	position: relative;
+	min-height: 100em;
+	top: 4em;
+}
 	header h1 {
-		font-size: 5em;
+		font-size: 3em;
 		padding: 1em;
 		margin-right: 0em;
 	}
@@ -211,7 +218,7 @@ li .link:hover {
 	.about {
 		position: relative;
 		display: flex;
-		top: -30em;
+		top: -50em;
 	}
 	.about img {
 		display: none;
@@ -219,7 +226,7 @@ li .link:hover {
 	.about-content {
 		left: 2em;
 	}
-	.about-content p {
+	.about-content .contact p {
 		font-size: 3.5em;
 		text-align: left;
 		width: 300px;
@@ -236,7 +243,7 @@ li .link:hover {
 		grid-gap: 5em;
 	}
 	.project img {
-		width: 45em;
+	width: auto;
 		height: 45em;
 	}
 
@@ -244,8 +251,8 @@ li .link:hover {
 		top: 15em;
 		left: 2em;
 	}
-	.contact h1 {
-		font-size: 4em;
+  h1 {
+		font-size: 2em;
 	}
 	.contact .email {
 		font-size: 3.5em;
@@ -256,29 +263,32 @@ li .link:hover {
 		padding: 2em;
 	}
 	.contact li a {
-		font-size: 2.5em;
+		font-size: 2em;
 	}
 	.footer {
 		top: 4em;
 		padding: 1em;
-		font-size: 2em;
+		font-size: 1em;
 	}
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	body {
-		font-size: .75em;
+		font-size: 1em;
 	}
 	header h1 {
 		font-size: 5em;
 		padding: 1em;
 		margin-right: 0em;
 	}
+nav li .link {
+    text-decoration: none;
+    padding: 2em;
+    opacity: 0.5;
+    font-size: 2em;
+}
 
-	nav {
-		display: none;
-	}
 	.header-title {
 		font-size: 3.6em;
 		text-align: left;
@@ -313,7 +323,7 @@ li .link:hover {
 		grid-gap: 5em;
 	}
 	.project img {
-		width: 30em;
+	width: auto;
 		height: 30em;
 	}
 
@@ -325,7 +335,7 @@ li .link:hover {
 		font-size: 4em;
 	}
 	.contact .email {
-		font-size: 3.5em;
+		font-size: 2em;
 	}
 
 	.contact li {
@@ -333,7 +343,7 @@ li .link:hover {
 		padding: 2em;
 	}
 	.contact li a {
-		font-size: 2.5em;
+		font-size: 2em;
 	}
 	.footer {
 		top: 4em;
@@ -364,7 +374,7 @@ li .link:hover {
 		z-index: 100;
 	}
 	nav li {
-		font-size: 3em;
+		font-size: 2em;
 	}
 	.header-title {
 		font-size: 5em;
@@ -398,7 +408,7 @@ li .link:hover {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 	.project img {
-		width: 32em;
+	width: auto;
 		height: 32em;
 	}
 
@@ -407,7 +417,7 @@ li .link:hover {
 		left: 8em;
 	}
 	.contact h1 {
-		font-size: 8em;
+		font-size: 5em;
 	}
 	.contact .email {
 		font-size: 5em;
@@ -420,6 +430,6 @@ li .link:hover {
 	.footer {
 		top: 4em;
 		padding: 1em;
-		font-size: 4em;
+		font-size: 3em;
 	}
 }
