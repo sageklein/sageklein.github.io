@@ -362,20 +362,20 @@ nav li .link {
   }
   .App-header {
 	position: relative;
-	min-height: 100vh;
+	min-height: 85vh;
 }
 	header h1 {
-		font-size: 3em;
-		margin-right: 30em;
+		font-size: 2em;
+		margin-right: 52em;
 	}
 
 	nav {
 		left: 60em;
-		top: 12em;
+		top: 8em;
 		z-index: 100;
 	}
 	nav li {
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 	.header-title {
 		font-size: 3em;
@@ -391,7 +391,7 @@ nav li .link {
 		left: 10em;
 	}
 	.about-content p {
-		font-size: 3.5em;
+		font-size: 3em;
 		text-align: left;
 		width: 25em;
 	}
@@ -410,7 +410,7 @@ nav li .link {
 	}
 	.project img {
 	width: auto;
-		height: 32em;
+		height: 20em;
 	}
 
 	.contact {
