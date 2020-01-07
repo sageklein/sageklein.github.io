@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16917269f5f2903b5005d433912a30f7",
+    "revision": "177380473d4e18f41f1170ffa7013d7a",
     "url": "/sageklein/index.html"
   },
   {
-    "revision": "3fca8b68dff2f4a104cd",
-    "url": "/sageklein/static/css/main.7a08f105.chunk.css"
+    "revision": "6d758736b9e2e49c2ced",
+    "url": "/sageklein/static/css/main.3126ff1c.chunk.css"
   },
   {
-    "revision": "591e038efb9cc3621fe5",
-    "url": "/sageklein/static/js/2.9c7d320d.chunk.js"
+    "revision": "887a8d1e7208782d7fe1",
+    "url": "/sageklein/static/js/2.53a38fac.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/sageklein/static/js/2.9c7d320d.chunk.js.LICENSE"
+    "url": "/sageklein/static/js/2.53a38fac.chunk.js.LICENSE"
   },
   {
-    "revision": "3fca8b68dff2f4a104cd",
-    "url": "/sageklein/static/js/main.665f1ef0.chunk.js"
+    "revision": "6d758736b9e2e49c2ced",
+    "url": "/sageklein/static/js/main.dd0952ec.chunk.js"
   },
   {
     "revision": "477127f221c9562b6977",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "935b9d943a7b60fd4772e94560c6eb8e",
     "url": "/sageklein/static/media/me.935b9d94.jpg"
+  },
+  {
+    "revision": "61e696bf736425937a9ee363ba0a5d95",
+    "url": "/sageklein/static/media/me2.61e696bf.jpg"
   },
   {
     "revision": "a2e9b7c1a25043babe15db454814857c",

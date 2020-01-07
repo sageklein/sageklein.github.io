@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/sageklein/static/css/main.7a08f105.chunk.css",
-    "main.js": "/sageklein/static/js/main.665f1ef0.chunk.js",
-    "main.js.map": "/sageklein/static/js/main.665f1ef0.chunk.js.map",
+    "main.css": "/sageklein/static/css/main.3126ff1c.chunk.css",
+    "main.js": "/sageklein/static/js/main.dd0952ec.chunk.js",
+    "main.js.map": "/sageklein/static/js/main.dd0952ec.chunk.js.map",
     "runtime-main.js": "/sageklein/static/js/runtime-main.54a97d47.js",
     "runtime-main.js.map": "/sageklein/static/js/runtime-main.54a97d47.js.map",
-    "static/js/2.9c7d320d.chunk.js": "/sageklein/static/js/2.9c7d320d.chunk.js",
-    "static/js/2.9c7d320d.chunk.js.map": "/sageklein/static/js/2.9c7d320d.chunk.js.map",
+    "static/js/2.53a38fac.chunk.js": "/sageklein/static/js/2.53a38fac.chunk.js",
+    "static/js/2.53a38fac.chunk.js.map": "/sageklein/static/js/2.53a38fac.chunk.js.map",
     "index.html": "/sageklein/index.html",
-    "precache-manifest.d6e86c625bf2f14482c27f8d8129b211.js": "/sageklein/precache-manifest.d6e86c625bf2f14482c27f8d8129b211.js",
+    "precache-manifest.c82b5b3396f30e5e748d9fbe76037186.js": "/sageklein/precache-manifest.c82b5b3396f30e5e748d9fbe76037186.js",
     "service-worker.js": "/sageklein/service-worker.js",
-    "static/css/main.7a08f105.chunk.css.map": "/sageklein/static/css/main.7a08f105.chunk.css.map",
-    "static/js/2.9c7d320d.chunk.js.LICENSE": "/sageklein/static/js/2.9c7d320d.chunk.js.LICENSE",
+    "static/css/main.3126ff1c.chunk.css.map": "/sageklein/static/css/main.3126ff1c.chunk.css.map",
+    "static/js/2.53a38fac.chunk.js.LICENSE": "/sageklein/static/js/2.53a38fac.chunk.js.LICENSE",
     "static/media/BangazonFigma.png": "/sageklein/static/media/BangazonFigma.52ab038b.png",
     "static/media/Employee1.png": "/sageklein/static/media/Employee1.01da8591.png",
     "static/media/Persona2.png": "/sageklein/static/media/Persona2.e41964ef.png",
     "static/media/me.jpg": "/sageklein/static/media/me.935b9d94.jpg",
+    "static/media/me2.jpg": "/sageklein/static/media/me2.61e696bf.jpg",
     "static/media/App.css": "/sageklein/static/media/tictac.a2e9b7c1.png",
     "static/media/website35.png": "/sageklein/static/media/website35.8a2cc1cb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.54a97d47.js",
-    "static/js/2.9c7d320d.chunk.js",
-    "static/css/main.7a08f105.chunk.css",
-    "static/js/main.665f1ef0.chunk.js"
+    "static/js/2.53a38fac.chunk.js",
+    "static/css/main.3126ff1c.chunk.css",
+    "static/js/main.dd0952ec.chunk.js"
   ]
 }
