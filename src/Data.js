@@ -2,6 +2,7 @@ import me from "./images/me.jpg";
 import Employee from "./images/Employee1.png";
 import Persona from "./images/Persona2.png";
 import Website35 from "./images/website35.png";
+import Bangazon from "./images/BangazonFigma.png";
 
 export default {
 	name: "Sage Klein",
@@ -48,10 +49,10 @@ export default {
 		},
 		{
 			id: 4,
-			title: "Project Four",
-			service: "Branding",
-			imageSrc: "  ",
-			url: "http://sageklein.com/"
+			title: "Figma Moxk-Up for Bangazon Project",
+			service: "Hi-Fi Mock-Up for a Online Selling Platform",
+			imageSrc: Bangazon,
+			// url: "http://sageklein.com/"
 		}
 
 		/*
