@@ -36,7 +36,7 @@ export default {
 		{
 			id: 2,
 			title: "Persona of a Collage Student",
-			service: "Website Development",
+			service: "Persona For Base of Web-Application",
 			imageSrc: Persona,
 			url: "http://sageklein.com/"
 		},
@@ -44,14 +44,14 @@ export default {
 		{
 			id: 3,
 			title: "Cohort 35 Website",
-			service: "Web App",
+			service: "Website for NSS Cohort 35",
 			imageSrc: Website35,
 			url: "http://sageklein.com/"
 		},
 		{
 			id: 4,
-			title: "Figma Moxk-Up for Bangazon Project",
-			service: "Hi-Fi Mock-Up for a Online Selling Platform",
+			title: "Figma Mock-Up for Bangazon Project",
+			service: "Hi-Fi Mock-Up for an Online Selling Platform",
 			imageSrc: Bangazon,
 			// url: "http://sageklein.com/"
 		}
