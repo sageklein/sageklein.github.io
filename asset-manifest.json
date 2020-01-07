@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ca05d5b.chunk.css",
-    "main.js": "/static/js/main.c4cbfff9.chunk.js",
-    "main.js.map": "/static/js/main.c4cbfff9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fec439dd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fec439dd.js.map",
-    "static/js/2.9c7d320d.chunk.js": "/static/js/2.9c7d320d.chunk.js",
-    "static/js/2.9c7d320d.chunk.js.map": "/static/js/2.9c7d320d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.03f81b9048b49f655863d20e1fcec8a6.js": "/precache-manifest.03f81b9048b49f655863d20e1fcec8a6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.1ca05d5b.chunk.css.map": "/static/css/main.1ca05d5b.chunk.css.map",
-    "static/js/2.9c7d320d.chunk.js.LICENSE": "/static/js/2.9c7d320d.chunk.js.LICENSE",
-    "static/media/BangazonFigma.png": "/static/media/BangazonFigma.52ab038b.png",
-    "static/media/Employee1.png": "/static/media/Employee1.01da8591.png",
-    "static/media/Persona2.png": "/static/media/Persona2.e41964ef.png",
-    "static/media/me.jpg": "/static/media/me.935b9d94.jpg",
-    "static/media/App.css": "/static/media/tictac.a2e9b7c1.png",
-    "static/media/website35.png": "/static/media/website35.8a2cc1cb.png"
+    "main.css": "/sageklein/static/css/main.7a08f105.chunk.css",
+    "main.js": "/sageklein/static/js/main.665f1ef0.chunk.js",
+    "main.js.map": "/sageklein/static/js/main.665f1ef0.chunk.js.map",
+    "runtime-main.js": "/sageklein/static/js/runtime-main.54a97d47.js",
+    "runtime-main.js.map": "/sageklein/static/js/runtime-main.54a97d47.js.map",
+    "static/js/2.9c7d320d.chunk.js": "/sageklein/static/js/2.9c7d320d.chunk.js",
+    "static/js/2.9c7d320d.chunk.js.map": "/sageklein/static/js/2.9c7d320d.chunk.js.map",
+    "index.html": "/sageklein/index.html",
+    "precache-manifest.d6e86c625bf2f14482c27f8d8129b211.js": "/sageklein/precache-manifest.d6e86c625bf2f14482c27f8d8129b211.js",
+    "service-worker.js": "/sageklein/service-worker.js",
+    "static/css/main.7a08f105.chunk.css.map": "/sageklein/static/css/main.7a08f105.chunk.css.map",
+    "static/js/2.9c7d320d.chunk.js.LICENSE": "/sageklein/static/js/2.9c7d320d.chunk.js.LICENSE",
+    "static/media/BangazonFigma.png": "/sageklein/static/media/BangazonFigma.52ab038b.png",
+    "static/media/Employee1.png": "/sageklein/static/media/Employee1.01da8591.png",
+    "static/media/Persona2.png": "/sageklein/static/media/Persona2.e41964ef.png",
+    "static/media/me.jpg": "/sageklein/static/media/me.935b9d94.jpg",
+    "static/media/App.css": "/sageklein/static/media/tictac.a2e9b7c1.png",
+    "static/media/website35.png": "/sageklein/static/media/website35.8a2cc1cb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fec439dd.js",
+    "static/js/runtime-main.54a97d47.js",
     "static/js/2.9c7d320d.chunk.js",
-    "static/css/main.1ca05d5b.chunk.css",
-    "static/js/main.c4cbfff9.chunk.js"
+    "static/css/main.7a08f105.chunk.css",
+    "static/js/main.665f1ef0.chunk.js"
   ]
 }
