@@ -40,6 +40,7 @@ export default {
 			imageSrc: Persona,
 			url: "http://sageklein.com/"
 		},
+
 		{
 			id: 3,
 			title: "Cohort 35 Website",
@@ -66,6 +67,7 @@ export default {
             }
                 */
 	],
+	
 	social: [
 		// Add Or Remove The Link Accordingly
 		{ name: "Github", url: "https://github.com/sageklein" },

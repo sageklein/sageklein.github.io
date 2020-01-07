@@ -1,17 +1,17 @@
 {
 	"gh-pages-deploy": {
-    "staticpath": "dist",
-    "cname": "nope.org",
-    "prep": [
-      "build-sass",
-      "optimize-img"
-    ],
-    "commit": "a custom commit message",
-    "post": [
-      "clean-source"
-    ],
-    "noprompt": false
-  },
+		"staticpath": "dist",
+		"cname": "nope.org",
+		"prep": [
+			"build-sass",
+			"optimize-img"
+		],
+		"commit": "a custom commit message",
+		"post": [
+			"clean-source"
+		],
+		"noprompt": false
+	},
 	"scripts": {
 		"predeploy": "react-scripts start",
 		"start": "react-scripts start",

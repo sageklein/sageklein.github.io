@@ -20,31 +20,36 @@ I have a real passion for coding and UI UX design!
 
 Hit Pan
 
+Bangazon
+
+Cohort 35 website 
+
+
 ### Personas
 
-Upon login a user will be able to see their personal make-up collection.
+I have built several Personas to use along side projects. 
 
 ### Research
 
 Upon login a user will be able to search a make-up API to add make up to their wish list or collection.
 
-### Proposal Examples:
+### Persona Examples:
 
-![Image description](/personalSite/wireFrame.png)
+![Persona Example](src/images/Persona2.png)
 
 ### Hi-Fi Mpock-up Examples
 
-![Image description](/personalSite/ERD.jpg)
+![Bangazon Figma](src/images/BangazonFigma.png)
 
 ### Skills:
 
-https://makeup-api.herokuapp.com
+http://github.com
 
-https://dbdiagram.io/
+https://dbdiagram.io
 
 http://figma.com
 
-https://reactjs.org/
+https://reactjs.org
 
 ## Dependencies farmiliar with:
 
