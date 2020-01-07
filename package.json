@@ -13,13 +13,14 @@
     "noprompt": false
   },
 	"scripts": {
+		"predeploy": "react-scripts start",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"deploy": "gh-pages -d build"
 	},
-	"homepage": "http://sageklein.github.io/react-gh-pages",
+	"homepage": "https://sageklein.github.io/sageklein/",
 	"name": "my-app",
 	"version": "0.1.0",
 	"private": true,
