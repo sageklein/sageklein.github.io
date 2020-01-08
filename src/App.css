@@ -275,8 +275,9 @@ height: 28em;
 
 
 body{
-    font-size: 10px;
-  }
+  font-size: 10px;
+}
+
 header h1{
 font-size: 5em;  
 padding: 1em;
@@ -287,14 +288,15 @@ nav{
   display: none;
 }
 .header-title{
-  font-size: 3.6em;
+  font-size: 3em;
   text-align: left;
   top:1em;
   left:1em;
 }
-.about{position: relative;
-      display: flex;
-      top:-10em;
+.about{
+  position: relative;
+  display: flex;
+  top:-10em;
 }
 .about img{
   display: none
@@ -359,7 +361,7 @@ body{
   font-size: 16px;
 }
   header h1{
-  font-size: 3em;
+  font-size: 2.5em;
   margin-right: 25em;
  }
   nav{
@@ -392,7 +394,7 @@ nav li{
 .about img{
 	margin-left: 5em;
 	border: 0.1em solid black;
-	height: 50em;
+	height: 55em;
   width: auto;
 }
 
@@ -407,7 +409,7 @@ nav li{
 }
 .project img{
 width: auto;  
-height: 30em;
+height: 18em;
 }
 
 .contact{
