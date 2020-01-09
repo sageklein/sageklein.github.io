@@ -21,7 +21,7 @@ body{
   flex-direction: column;
   align-items: center;
   color: black;
-  top:3em;
+  top:4.8em;
 }
 .heading-background{
   position: fixed;
@@ -42,7 +42,7 @@ header h1{
 font-size: 1em;
 font-weight: 400;  
 padding: 2em;
-margin-right: 50em;
+margin-right: 65em;
 }
 nav{
   position:fixed;
@@ -96,7 +96,7 @@ li .link:hover{
   font-family: 'Montserrat', sans-serif;
   font-size: 3em;
   text-align: left;
-  top:2em;
+  top:3em;
 }
 .about{
   display: flex;
@@ -302,7 +302,7 @@ body{
 }
 
 header h1{
-font-size: 5em;  
+font-size: 4.5em;  
 padding: 1em;
 margin-right: 0em;
 }
@@ -395,12 +395,12 @@ body{
 }
 
   header h1{
-  font-size: 2.5em;
-  margin-right: 25em;
+  font-size: 2em;
+  margin-right: 28em;
  }
   nav{
   left:60em;
-  top:12em;
+  top:10em;
   z-index: 100;
 }
 nav li{
@@ -408,7 +408,7 @@ nav li{
 }
 .header-title{
   font-size: 5em;
-  top:1em;
+  top:2em;
   left:1em;
 }
 .about{
@@ -502,6 +502,5 @@ height: 18em;
   padding: 1em;
   font-size: 3em;
 }
-
 
 }
