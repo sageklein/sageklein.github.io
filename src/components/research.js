@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 
-
-class Project extends Component {
+class Research extends Component {
 	state = {};
 	render() {
 		return (
 			<Fade bottom>
-				<div className="project">
+				<div className="research">
+					<h1>{this.props.words}</h1>
 					<a href={this.props.url} target="_blank">
 						<img
 							src={this.props.imageSrc}
@@ -15,11 +15,11 @@ class Project extends Component {
 						></img>
 					</a>
 					<h1>{this.props.title}</h1>
-					<span>{this.props.service}</span>
+					<span className="discription">{this.props.service}</span>
 				</div>
 			</Fade>
 		);
 	}
 }
 
-export default Project;
+export default Research;

@@ -48,7 +48,7 @@ nav{
   position:fixed;
   left:60em;
   top:6em;
-z-index: 100;
+  z-index: 100;
 }
 nav li{
   display: inline-block;
@@ -125,6 +125,7 @@ li .link:hover{
 .work{
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   left:15em;
   top:8em;
@@ -135,15 +136,26 @@ li .link:hover{
   font-size: 5em;
   text-align: left;
 }
-.work .work-content{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-gap: 2em;
+.work .work-content 
+.personas .research .websites {
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.project img{
+.personas img{
 width: auto;  
-height: 30em;
+height: 18em;
+}
+.research img{
+width: auto;  
+height: 18em;
+}
+.websites img{
+width: auto;  
+height: 18em;
 }
 .contact{
   position: relative;
@@ -234,13 +246,24 @@ nav{
   align-items: flex-start;
 }
 .work .work-content{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+    left:15em;
+  top:8em;
 }
-.project img{
+.personas img{
 width: auto;  
-height: 28em;
+height: 18em;
+}
+.research img{
+width: auto;  
+height: 18em;
+}
+.websites img{
+width: auto;  
+height: 18em;
 }
 
 .contact{
@@ -316,15 +339,25 @@ nav{
   align-items: flex-start;
 }
 .work .work-content{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  left:15em;
+  top:8em;
 }
-.project img{
+.personas img{
 width: auto;  
-height: 30em;
+height: 18em;
 }
-
+.research img{
+width: auto;  
+height: 18em;
+}
+.websites img{
+width: auto;  
+height: 18em;
+}
 .contact{
   top:15em;
   left:6em;
@@ -360,6 +393,7 @@ height: 30em;
 body{
   font-size: 16px;
 }
+
   header h1{
   font-size: 2.5em;
   margin-right: 25em;
@@ -383,9 +417,10 @@ nav li{
   top:1.5em;
 }
 .about-content{
-  left:10em;
+  left:10.5em;
 }
 .about-content p{
+    left:10.5em;
   font-size: 3em;
   text-align: left;
   width: 25em;
@@ -399,28 +434,63 @@ nav li{
 }
 
 .work{
-  left:10em;
+  left:10.5em;
   top:4em;
   align-items: flex-start;
 }
-.work .work-content{
-  display: grid;
-  grid-template-columns: 1fr 1fr ;
+.work .work-content .personas .research .websites {
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.project img{
+.persona-content {
+    justify-content: flex-start;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.website-content {
+    justify-content: flex-start;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.research-content {
+    justify-content: flex-start;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.personas img{
+width: auto;  
+height: 18em;
+align-self: center;
+}
+.research img{
+width: auto;  
+height: 18em;
+}
+.websites img{
 width: auto;  
 height: 18em;
 }
 
 .contact{
-  top:10em;
-  left:8em;
+  top:10.5em;
+  left:10.5em;
 }
 .contact h1{
   font-size: 7em;
 }
 .contact .email{
-  font-size: 4.5em;
+    top:10.5em;
+  left:8em;
+  font-size: 3.5em;
 }
 
 .contact li a{
@@ -428,9 +498,10 @@ height: 18em;
   padding: 1em;
 }
 .footer{
-  top:3em;
+  top:4em;
   padding: 1em;
-  font-size: 4em;
+  font-size: 3em;
 }
+
 
 }
