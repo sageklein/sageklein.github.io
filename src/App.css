@@ -80,8 +80,8 @@ li .link:hover{
 .header-title button{
   background: black;
   border: 0px;
-  font-size: .3em;
-  padding: .1em 2.2em .1em 2.2em;
+  font-size: .5em;
+  padding: .2em 2.1em .2em 2.1em;
   letter-spacing: .2em;
   transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
@@ -99,6 +99,7 @@ li .link:hover{
   text-decoration: none;
 }
 .header-title{
+  font-weight: bold;
   position: relative;
   font-family: 'Open Sans Condensed', 'sans-serif';
   font-size: 3em;
