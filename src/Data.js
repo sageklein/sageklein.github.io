@@ -1,10 +1,10 @@
 import me from "./images/me.jpg";
-import me2 from "./images/me2.jpg";
 import Employee from "./images/Employee1.png";
 import Persona from "./images/Persona2.png";
 import Website35 from "./images/website35.png";
 import Bangazon from "./images/BangazonFigma.png";
 import Research from "./images/research.jpg";
+import Mapping from "./images/journeyMapping.jpg";
 
 export default {
 	name: "Sage Klein",
@@ -20,18 +20,15 @@ export default {
 	contactEmail: "sageklein@gmail.com",
 	// Add Your About Text Here
 	abouttext:
-		"As a Front End Web Developer I am passionate about combining my love of coding with my love of continued learning. With UI/UX and strong communication skills I produce beautiful and well thought out design work. With a positive attitude and strong growth mindset, I am self motivated and work well in groups!",
+		"As a Front End Web Developer I am passionate about combining my love of coding with my love of continued learning. With UI/UX and strong communication skills I produce beautiful and well thought out design work. With a positive attitude and strong growth mindset, I am self motivated and work well in groups. Empathy, persistence, curiosity and an obsession with details are my motivating factors when designing.",
 	aboutImage: me,
-	me2,
 
 	ShowAboutImage: true,
-
-	personas: [
+	projects: [
 		{
-			words: "Personas",
 			id: 1,
-			title: "Cheif Training Officer at Bangazon", //Project Title - Add Your Project Title Here
-			service: "UI/UX Design and Application Development", // Add Your Service Type Here
+			title: "Persona: Cheif Training Officer", //Project Title - Add Your Project Title Here
+			service: "Built For UI/UX Design and Application Development", // Add Your Service Type Here
 			//Project Image - Add Your Project Image Here
 			imageSrc: Employee,
 			//Project URL - Add Your Project Url Here
@@ -39,16 +36,12 @@ export default {
 		},
 		{
 			id: 2,
-			title: "Collage Student",
-			service: "Persona For Base of Web-Application",
+			title: "Persona: Collage Student",
+			service: "Built For Consumer Web-Application",
 			imageSrc: Persona,
 			url: "http://sageklein.com/"
-		}
-	],
-
-	websites: [
+		},
 		{
-			words: "Websites",
 			id: 3,
 			title: "Cohort 35 Website",
 			service: "Website for NSS Cohort 35",
@@ -60,12 +53,8 @@ export default {
 			title: "Figma Mock-Up for Bangazon Project",
 			service: "Hi-Fi Mock-Up for an Online Selling Platform",
 			imageSrc: Bangazon
-		}
-	],
-
-	research: [
+		},
 		{
-			words: "User Research",
 			id: 5,
 			title: "Banagazon Project",
 			service: "Interviewing a User Navigating a Lo-Fi Mock-up",
@@ -73,9 +62,9 @@ export default {
 		},
 		{
 			id: 6,
-			title: "Bangazon Project",
-			service: "Hi-Fi Mock-Up for Bangazon Project",
-			imageSrc: Bangazon
+			title: "Journey Mapping",
+			service: "Diagraming Views Customers Interacting with on Bangazon",
+			imageSrc: Mapping
 		}
 	],
 

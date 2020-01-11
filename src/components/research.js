@@ -6,9 +6,13 @@ class Research extends Component {
 	render() {
 		return (
 			<Fade bottom>
-				<div className="research">
-					<h1>{this.props.words}</h1>
-					<a href={this.props.url} target="_blank">
+				<h1 className="words">{this.props.words}</h1>
+				<div className="research-block">
+					<a
+						href={this.props.url}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<img
 							src={this.props.imageSrc}
 							alt={this.props.title}
