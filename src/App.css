@@ -23,7 +23,7 @@ body{
   flex-direction: column;
   align-items: center;
   color: #404040;
-  top:4em;
+  top:1em;
 }
 .heading-background{
   position: fixed;
@@ -49,7 +49,7 @@ margin-right: 45em;
 nav{
   position:fixed;
   left:60em;
-  top:6em;
+  top:3em;
   z-index: 100;
 }
 nav li{
@@ -80,7 +80,9 @@ li .link:hover{
 .header-title button{
   background: black;
   border: 0px;
-  padding: 1em 3em;
+  font-size: .3em;
+  padding: .1em 2.2em .1em 2.2em;
+  letter-spacing: .2em;
   transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -275,163 +277,3 @@ height: 20em;
 
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-
-
-body{
-    font-size: 10px;
-  }
-header h1{
-font-size: 5em;  
-padding: 1em;
-margin-right: 0em;
-}
-
-nav{
-  display: none;
-}
-.header-title{
-  font-size: 3.6em;
-  text-align: left;
-  top:1em;
-  left:1em;
-}
-.about{position: relative;
-      display: flex;
-      top:-10em;
-}
-.about img{
-  display: none
-}
-.about-content{
-  left:6em;
-}
-.about-content p{
-  font-size: 3.5em;
-  text-align: left;
-  width: 700px;
-}
-
-.work{
-  left:6em;
-  top:4em;
-  align-items: flex-start;
-}
-.work .work-content{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 5em;
-}
-.project img{
-width: auto;  
-height: 30em;
-}
-
-.contact{
-  top:15em;
-  left:6em;
-}
-.contact h1{
-  font-size: 4em;
-}
-.contact .email{
-  font-size: 3.5em;
-}
-
-.contact li{
-  display: block;
-  padding: 2em;
-}
-.contact li a{
-  font-size: 2.5em;
-}
-.footer{
-  top:4em;
-  padding: 1em;
-  font-size: 2em;
-}
-
-}
-
-/* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-/* Styles */
-
-
-
-body{
-    font-size: 20px;
-  }
-  header h1{
-    font-size: 3em;
-    margin-right: 25em;
-  }
-
-
-  nav{
-  left:60em;
-  top:12em;
-  z-index: 100;
-}
-nav li{
-   font-size: 3em;
-
-}
-.header-title{
-  font-size: 5em;
-  top:1em;
-  left:1em;
-}
-.about{position: relative;
-      display: flex;
-      top:-20em;
-}
-.about-content{
-  left:10em;
-}
-.about-content p{
-  font-size: 3.5em;
-  text-align: left;
-  width: 25em;
-}
-.about img{
-  margin-left: 1em;
-}
-
-.work{
-  left:10em;
-  top:4em;
-  align-items: flex-start;
-}
-.work .work-content{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.project img{
- width: auto;  
- height: 32em;
-}
-
-.contact{
-  top:10em;
-  left:8em;
-}
-.contact h1{
-  font-size: 8em;
-}
-.contact .email{
-  font-size: 5em;
-}
-
-.contact li a{
-  font-size: 4em;
-  padding: 1em;
-}
-.footer{
-  top:4em;
-  padding: 1em;
-  font-size: 4em;
-}
-
-}

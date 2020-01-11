@@ -1,7 +1,7 @@
 import me from "./images/me.jpg";
 import Employee from "./images/Employee1.png";
 import Persona from "./images/Persona2.png";
-import Website35 from "./images/website35.png";
+import Lofi from "./images/lofi_2.gif";
 import Bangazon from "./images/BangazonFigma.png";
 import Research from "./images/research.jpg";
 import Mapping from "./images/journeyMapping.jpg";
@@ -30,41 +30,44 @@ export default {
 			title: "Persona: Cheif Training Officer", //Project Title - Add Your Project Title Here
 			service: "Built For UI/UX Design and Application Development", // Add Your Service Type Here
 			//Project Image - Add Your Project Image Here
-			imageSrc: Employee,
+			imageSrc: Employee
 			//Project URL - Add Your Project Url Here
-			url: "https://nss-day-cohort-35.github.io/website/"
+			// url: "images/Employee1.png"
 		},
 		{
 			id: 2,
 			title: "Persona: Collage Student",
 			service: "Built For Consumer Web-Application",
-			imageSrc: Persona,
-			url: "http://sageklein.com/"
+			imageSrc: Persona
+			// url: "http://sageklein.com/"
 		},
 		{
 			id: 3,
-			title: "Cohort 35 Website",
-			service: "Website for NSS Cohort 35",
-			imageSrc: Website35,
-			url: "http://sageklein.com/"
+			title: "Journey Mapping",
+			service: "Diagraming Views Customers Interacting with on Bangazon",
+			imageSrc: Mapping
+			// url: "http://sageklein.com/"
 		},
 		{
 			id: 4,
-			title: "Figma Mock-Up for Bangazon Project",
-			service: "Hi-Fi Mock-Up for an Online Selling Platform",
-			imageSrc: Bangazon
+			title: "User Testing",
+			service: "Observing User Testing of Lo-Fi Mock-Up",
+			imageSrc: Lofi
+			// url: "http://sageklein.com/"
 		},
 		{
 			id: 5,
 			title: "Banagazon Project",
 			service: "Interviewing a User Navigating a Lo-Fi Mock-up",
 			imageSrc: Research
+			// url: "http://sageklein.com/"
 		},
 		{
 			id: 6,
-			title: "Journey Mapping",
-			service: "Diagraming Views Customers Interacting with on Bangazon",
-			imageSrc: Mapping
+			title: "Figma Mock-Up for Bangazon Project",
+			service: "Hi-Fi Mock-Up for an Online Selling Platform",
+			imageSrc: Bangazon
+			// url: "http://sageklein.com/"
 		}
 	],
 
