@@ -1,14 +1,16 @@
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
 
 body{
   font-size: 16px;
 	background-image: url(./images/tictac.png);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Condensed', 'sans-serif';
   letter-spacing: 5px;
   overflow-x: hidden;
   z-index: 1;
 }
+
 
 .App {
   text-align: center;
@@ -20,8 +22,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: black;
-  top:3em;
+  color: #404040;
+  top:4em;
 }
 .heading-background{
   position: fixed;
@@ -39,10 +41,10 @@ header{
   align-items: center;
 }
 header h1{
-font-size: 1em;
+font-size: 1.5em;
 font-weight: 400;  
 padding: 2em;
-margin-right: 50em;
+margin-right: 45em;
 }
 nav{
   position:fixed;
@@ -53,9 +55,11 @@ nav{
 nav li{
   display: inline-block;
   cursor: pointer;
+
 }
 nav li .link{
   text-decoration: none;
+  font-size: 1.5em;
   color: black;
   padding:1em;
   opacity: 0.5;
@@ -87,13 +91,14 @@ li .link:hover{
   opacity: 0.8;
 }
 .header-title button a{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Condensed', 'sans-serif';
+  font-size: .8em;
   color:white;
   text-decoration: none;
 }
 .header-title{
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans Condensed', 'sans-serif';
   font-size: 3em;
   text-align: left;
   top:2em;
@@ -107,12 +112,12 @@ li .link:hover{
   left:15em;
 }
 .about-content h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans Condensed', 'sans-serif';
   font-size: 5em;
   text-align: left;
 }
 .about-content p{
-  font-size: 1.3em;
+  font-size: 1.5em;
   text-align: left;
   width: 37em;
 }
@@ -125,37 +130,25 @@ li .link:hover{
 .work{
   position: relative;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   left:15em;
   top:8em;
   align-items: flex-start;
 }
 .work .heading{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans Condensed', 'sans-serif';
   font-size: 5em;
   text-align: left;
 }
-.work .work-content 
-.personas .research .websites {
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.work .work-content{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 2em;
 }
 
-.personas img{
+.project img{
 width: auto;  
-height: 18em;
-}
-.research img{
-width: auto;  
-height: 18em;
-}
-.websites img{
-width: auto;  
-height: 18em;
+height: 20em;
 }
 .contact{
   position: relative;
@@ -164,7 +157,7 @@ height: 18em;
   text-align: left;
 }
 .contact h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans Condensed', 'sans-serif';
   font-size: 5em;
   text-align: left;
 }
@@ -174,7 +167,7 @@ height: 18em;
 }
 
 .contact .email{
-  color:black;
+  color:#404040;
   font-size: 2em;
 }
 .contact li{
@@ -186,7 +179,7 @@ height: 18em;
 }
 .contact li a{
   text-decoration: none;
-  color:black;
+  color:#404040;
 }
 .footer{
   position: relative;
@@ -195,20 +188,20 @@ height: 18em;
 }
 .footer a{
   text-decoration: none;
-  color:#2c59fb;
+  color:#F5BCC1;
 }
 
 
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-device-width: 320px) and (max-device-width : 480px){
 
-body{
+  body{
     font-size: 6px;
   }
 header h1{
-  font-size: 5em;  
-  padding: 1em;
-  margin-right: 0em;
+ font-size: 5em;  
+ padding: 1em;
+ margin-right: 0em;
 }
 
 .heading-background{
@@ -218,7 +211,7 @@ nav{
   display: none;
 }
 .header-title{
-  font-size: 2.8em;
+  font-size: 3em;
   text-align: left;
   top:1em;
   left:1em;
@@ -226,7 +219,7 @@ nav{
 .about{
   position: relative;
   display: flex;
-  top:-40em;
+  top:-30em;
 }
 .about img{
   display: none
@@ -246,24 +239,13 @@ nav{
   align-items: flex-start;
 }
 .work .work-content{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-    left:15em;
-  top:8em;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5em;
 }
-.personas img{
+.project img{
 width: auto;  
-height: 18em;
-}
-.research img{
-width: auto;  
-height: 18em;
-}
-.websites img{
-width: auto;  
-height: 18em;
+height: 20em;
 }
 
 .contact{
@@ -298,9 +280,8 @@ height: 18em;
 
 
 body{
-  font-size: 10px;
-}
-
+    font-size: 10px;
+  }
 header h1{
 font-size: 5em;  
 padding: 1em;
@@ -311,15 +292,14 @@ nav{
   display: none;
 }
 .header-title{
-  font-size: 3em;
+  font-size: 3.6em;
   text-align: left;
   top:1em;
   left:1em;
 }
-.about{
-  position: relative;
-  display: flex;
-  top:-10em;
+.about{position: relative;
+      display: flex;
+      top:-10em;
 }
 .about img{
   display: none
@@ -339,25 +319,15 @@ nav{
   align-items: flex-start;
 }
 .work .work-content{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  left:15em;
-  top:8em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5em;
 }
-.personas img{
+.project img{
 width: auto;  
-height: 18em;
+height: 30em;
 }
-.research img{
-width: auto;  
-height: 18em;
-}
-.websites img{
-width: auto;  
-height: 18em;
-}
+
 .contact{
   top:15em;
   left:6em;
@@ -391,117 +361,77 @@ height: 18em;
 
 
 body{
-  font-size: 16px;
-}
-
+    font-size: 20px;
+  }
   header h1{
-  font-size: 2.5em;
-  margin-right: 25em;
- }
+    font-size: 3em;
+    margin-right: 25em;
+  }
+
+
   nav{
   left:60em;
   top:12em;
   z-index: 100;
 }
 nav li{
-   font-size: 2em;
+   font-size: 3em;
+
 }
 .header-title{
   font-size: 5em;
   top:1em;
   left:1em;
 }
-.about{
-  position: relative;
-  display: flex;
-  top:1.5em;
+.about{position: relative;
+      display: flex;
+      top:-20em;
 }
 .about-content{
-  left:10.5em;
+  left:10em;
 }
 .about-content p{
-    left:10.5em;
-  font-size: 3em;
+  font-size: 3.5em;
   text-align: left;
   width: 25em;
 }
-
 .about img{
-	margin-left: 5em;
-	border: 0.1em solid black;
-	height: 55em;
-  width: auto;
+  margin-left: 1em;
 }
 
 .work{
-  left:10.5em;
+  left:10em;
   top:4em;
   align-items: flex-start;
 }
-.work .work-content .personas .research .websites {
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.work .work-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.persona-content {
-    justify-content: flex-start;
-  flex-wrap: nowrap;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.website-content {
-    justify-content: flex-start;
-  flex-wrap: nowrap;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.research-content {
-    justify-content: flex-start;
-  flex-wrap: nowrap;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.personas img{
-width: auto;  
-height: 18em;
-align-self: center;
-}
-.research img{
-width: auto;  
-height: 18em;
-}
-.websites img{
-width: auto;  
-height: 18em;
+.project img{
+ width: auto;  
+ height: 32em;
 }
 
 .contact{
-  top:10.5em;
-  left:10.5em;
+  top:10em;
+  left:8em;
 }
 .contact h1{
-  font-size: 7em;
+  font-size: 8em;
 }
 .contact .email{
-    top:10.5em;
-  left:8em;
-  font-size: 3.5em;
+  font-size: 5em;
 }
 
 .contact li a{
-  font-size: 3em;
+  font-size: 4em;
   padding: 1em;
 }
 .footer{
   top:4em;
   padding: 1em;
-  font-size: 3em;
+  font-size: 4em;
 }
-
 
 }
