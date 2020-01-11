@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/sageklein/static/css/main.afb434de.chunk.css",
-    "main.js": "/sageklein/static/js/main.02e8fd38.chunk.js",
-    "main.js.map": "/sageklein/static/js/main.02e8fd38.chunk.js.map",
+    "main.css": "/sageklein/static/css/main.a63ab4c2.chunk.css",
+    "main.js": "/sageklein/static/js/main.bf8dc563.chunk.js",
+    "main.js.map": "/sageklein/static/js/main.bf8dc563.chunk.js.map",
     "runtime-main.js": "/sageklein/static/js/runtime-main.54a97d47.js",
     "runtime-main.js.map": "/sageklein/static/js/runtime-main.54a97d47.js.map",
     "static/js/2.93de51b0.chunk.js": "/sageklein/static/js/2.93de51b0.chunk.js",
     "static/js/2.93de51b0.chunk.js.map": "/sageklein/static/js/2.93de51b0.chunk.js.map",
     "index.html": "/sageklein/index.html",
-    "precache-manifest.f00b33a585489738914667a3deae45f4.js": "/sageklein/precache-manifest.f00b33a585489738914667a3deae45f4.js",
+    "precache-manifest.8689c1ebcf4569017a944ba0e7861f80.js": "/sageklein/precache-manifest.8689c1ebcf4569017a944ba0e7861f80.js",
     "service-worker.js": "/sageklein/service-worker.js",
-    "static/css/main.afb434de.chunk.css.map": "/sageklein/static/css/main.afb434de.chunk.css.map",
+    "static/css/main.a63ab4c2.chunk.css.map": "/sageklein/static/css/main.a63ab4c2.chunk.css.map",
     "static/js/2.93de51b0.chunk.js.LICENSE": "/sageklein/static/js/2.93de51b0.chunk.js.LICENSE",
     "static/media/BangazonFigma.png": "/sageklein/static/media/BangazonFigma.52ab038b.png",
     "static/media/Employee1.png": "/sageklein/static/media/Employee1.01da8591.png",
     "static/media/Persona2.png": "/sageklein/static/media/Persona2.e41964ef.png",
     "static/media/journeyMapping.jpg": "/sageklein/static/media/journeyMapping.204c101a.jpg",
+    "static/media/lofi_2.gif": "/sageklein/static/media/lofi_2.f41549bf.gif",
     "static/media/me.jpg": "/sageklein/static/media/me.935b9d94.jpg",
     "static/media/research.jpg": "/sageklein/static/media/research.9133ede7.jpg",
-    "static/media/App.css": "/sageklein/static/media/tictac.a2e9b7c1.png",
-    "static/media/website35.png": "/sageklein/static/media/website35.8a2cc1cb.png"
+    "static/media/App.css": "/sageklein/static/media/tictac.a2e9b7c1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.54a97d47.js",
     "static/js/2.93de51b0.chunk.js",
-    "static/css/main.afb434de.chunk.css",
-    "static/js/main.02e8fd38.chunk.js"
+    "static/css/main.a63ab4c2.chunk.css",
+    "static/js/main.bf8dc563.chunk.js"
   ]
 }
