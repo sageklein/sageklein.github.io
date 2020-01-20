@@ -5,6 +5,7 @@ import Bangazon from "./images/BangazonFigma.png";
 import Research from "./images/research.jpg";
 import Mapping from "./images/journeyMapping.jpg";
 import empathy from "./images/mapping.jpg";
+import BangazonDashBoard from "./images/BangazonDashboard.png";
 
 
 export default {
@@ -71,7 +72,21 @@ export default {
 			service: "Hi-Fi Mock-Up for Bangazon",
 			imageSrc: Bangazon
 			// url: "http://sageklein.com/"
+		},
+		{
+			id: 7,
+			title: "Figma Mock-Up Of Dashboard",
+			service: "Hi-Fi Mock-Up for Bangazon",
+			imageSrc: BangazonDashBoard
+			// url: "http://sageklein.com/"
 		}
+		// {
+		// 	id: 8,
+		// 	title: "Figma Mock-Up Of ",
+		// 	service: "Hi-Fi Mock-Up for Bangazon",
+		// 	imageSrc: BangazonCard
+		// 	// url: "http://sageklein.com/"
+		// }
 	],
 
 	social: [
