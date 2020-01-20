@@ -10,7 +10,14 @@ body{
   overflow-x: hidden;
   z-index: 1;
 }
-
+.workBg{
+	background-image: url(./images/dot-grid.png); 
+  background-size: repeat;
+  top: 0; 
+  padding-left: 15em; 
+  min-width: 100%;
+  min-height: 100%;
+}
 
 .App {
   text-align: center;
@@ -156,12 +163,14 @@ li .link:hover{
 	height: 50em;
 	width: auto;
 }
-
+.resume{
+  margin: .3em;
+}
 .work {
   position: relative;
   display: flex;
   flex-direction: column;
-  left:15em;
+  left:0em;
   top:8em;
   align-items: flex-start;
 }
@@ -273,9 +282,16 @@ nav{
   text-align: left;
   width: 300px;
 }
-
+.workBg{
+	background-image: url(./images/dot-grid.png); 
+  background-size: repeat;
+  top: 2em; 
+  padding-left: 15em; 
+  min-width: 100%;
+  min-height: 100%;
+}
 .work{
-  left:2em;
+  left:0em;
   top:2em;
   align-items: flex-start;
 }

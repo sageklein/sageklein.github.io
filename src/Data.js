@@ -6,7 +6,8 @@ import Research from "./images/research.jpg";
 import Mapping from "./images/journeyMapping.jpg";
 import empathy from "./images/mapping.jpg";
 import BangazonDashBoard from "./images/BangazonDashboard.png";
-
+import resume from "./images/SageResume.pdf"
+import addComputer from "./images/addComputer.png"
 
 export default {
 	name: "Sage Klein",
@@ -18,6 +19,7 @@ export default {
 		//Line 3 For Header
 		"Nashville TN"
 	],
+	resume: resume,
 	//Contact Email
 	contactEmail: "sageklein@gmail.com",
 	// Add Your About Text Here
@@ -75,18 +77,18 @@ export default {
 		},
 		{
 			id: 7,
-			title: "Figma Mock-Up Of Dashboard",
-			service: "Hi-Fi Mock-Up for Bangazon",
+			title: "Figma View Of Dashboard",
+			service: "Hi-Fi MockUp for Bangazon",
 			imageSrc: BangazonDashBoard
 			// url: "http://sageklein.com/"
+		},
+		{
+			id: 8,
+			title: "Figma View to Add Computer Drawer",
+			service: "Hi-Fi MockUp for Bangazon",
+			imageSrc: addComputer
+			// url: "http://sageklein.com/"
 		}
-		// {
-		// 	id: 8,
-		// 	title: "Figma Mock-Up Of ",
-		// 	service: "Hi-Fi Mock-Up for Bangazon",
-		// 	imageSrc: BangazonCard
-		// 	// url: "http://sageklein.com/"
-		// }
 	],
 
 	social: [

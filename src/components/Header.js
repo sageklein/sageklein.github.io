@@ -32,6 +32,14 @@ class Header extends Component {
 								Contact
 							</a>
 						</button>
+						<button className="resume">
+							<a
+								href={`${data.resume}`}
+								rel="noopener noreferrer"
+							>
+								Download Resume
+							</a>
+						</button>
 					</p>
 				</Fade>
 			</div>

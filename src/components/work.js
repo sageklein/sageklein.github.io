@@ -5,10 +5,12 @@ import data from "../Data";
 
 
 class Work extends Component {
+
 	state = {};
 	render() {
+
 		return (
-			<div>
+			<div className="workBg">
 				<h1 className="heading">
 					<Fade bottom cascade>
 						Work.
