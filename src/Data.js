@@ -1,10 +1,11 @@
 import me from "./images/me.jpg";
 import Employee from "./images/Employee1.png";
-import Persona from "./images/Persona2.png";
 import Lofi from "./images/lofi_2.gif";
 import Bangazon from "./images/BangazonFigma.png";
 import Research from "./images/research.jpg";
 import Mapping from "./images/journeyMapping.jpg";
+import empathy from "./images/mapping.jpg";
+
 
 export default {
 	name: "Sage Klein",
@@ -25,7 +26,7 @@ export default {
 
 	ShowAboutImage: true,
 	intro:
-		"Bangazon is a group project I participated in while at Nashville Software School. We were tasked with creating a company intranet website for an Amazon-esque marketplace. We consulted with company stakeholders to determine the functionality and requirements of the platform. The color Palette was put together based on design guideliness dictated by the Hubspot Canvas Design System. For this project I Designed the Personas featured below. I helped design a journey map to help understand the individual's relationships with the website and products it contains. I also utilized Lo-Fi Mockups for tangible representation of our design concept and use flow for feedback on improving our design. I interviewed stakeholders during the Lo-Fi Mockup navigation process and took notes on feedback and personal observations. Finally I helped make  a Hi-Fi Mockup using Figma.",
+		"Bangazon is a group project I participated in while at Nashville Software School. We were tasked with creating a company intranet website for an Amazon-esque marketplace. We consulted with company stakeholders to determine the functionality and requirements of the platform. The color Palette was put together based on design guideliness dictated by the Hubspot Canvas Design System. For this project I Designed the Personas featured below. I helped design a journey map to help understand the individual's relationships with the website and products it contains. I also utilized Lo-Fi Mockups for tangible representation of our design concept and use flow for feedback on improving our design. I interviewed stakeholders during the Lo-Fi Mockup navigation process and took notes on feedback and personal observations. Finally I helped make a Hi-Fi Mockup using Figma.",
 	projects: [
 		{
 			id: 1,
@@ -38,15 +39,15 @@ export default {
 		},
 		{
 			id: 2,
-			title: "Persona: Collage Student",
-			service: "Built For Consumer Web-Applications",
-			imageSrc: Persona
+			title: "Journey/Empathy Mapping",
+			service: "Creating a Map to Gain Deeper Understanding of Users",
+			imageSrc: empathy
 			// url: "http://sageklein.com/"
 		},
 		{
 			id: 3,
-			title: "Journey Mapping",
-			service: "Diagraming Views Customers Interacting with on Bangazon",
+			title: "Site Mapping",
+			service: "Diagraming Views of Customer Interactions",
 			imageSrc: Mapping
 			// url: "http://sageklein.com/"
 		},
@@ -66,7 +67,7 @@ export default {
 		},
 		{
 			id: 6,
-			title: "Figma Mock-Up for All of Bangazon Project",
+			title: "Figma Mock-Up Of Bangazon Project",
 			service: "Hi-Fi Mock-Up for Bangazon",
 			imageSrc: Bangazon
 			// url: "http://sageklein.com/"

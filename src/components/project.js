@@ -9,8 +9,12 @@ class Project extends Component {
 			<Fade bottom>
 				<div className="project">
 					<img src={this.props.imageSrc} alt={this.props.title}></img>
-					<h1>{this.props.title}</h1>
-					<span>{this.props.service}</span>
+					<div className="pic_under">
+						<h1>{this.props.title}</h1>
+						<h2>
+							<span>{this.props.service}</span>
+						</h2>
+					</div>
 				</div>
 			</Fade>
 		);

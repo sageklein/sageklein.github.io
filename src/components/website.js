@@ -18,8 +18,10 @@ class Website extends Component {
 							alt={this.props.title}
 						></img>
 					</a>
+					<div className="under-pic">
 					<h1>{this.props.title}</h1>
 					<span className="discription">{this.props.service}</span>
+					</div>
 				</div>
 			</Fade>
 		);

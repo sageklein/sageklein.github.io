@@ -9,18 +9,18 @@ import Navbar from './components/Navbar'
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
+      <Navbar />
       <div className="App-header">
-      <Header></Header>
+      <Header />
       </div>
       <div className='About'>
-        <About></About>
+        <About />
       </div>
       <div className='work'>
-        <Work></Work>
+        <Work />
       </div>
       <div className='contact'>
-        <Contact></Contact>
+        <Contact />
       </div>
     </div>
   );
