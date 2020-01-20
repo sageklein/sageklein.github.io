@@ -3,6 +3,7 @@ import Project from "./project";
 import Fade from "react-reveal/Fade";
 import data from "../Data";
 
+
 class Work extends Component {
 	state = {};
 	render() {
@@ -12,7 +13,10 @@ class Work extends Component {
 					<Fade bottom cascade>
 						Work.
 					</Fade>
-				</h1>
+				</h1>{" "}
+				<Fade bottom>
+					<p className="intro-content">{data.intro}</p>
+				</Fade>
 				<div className="work-content">
 					{data.projects.map(project => (
 						<Project

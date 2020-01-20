@@ -110,10 +110,26 @@ li .link:hover{
   display: flex;
   flex-direction: row;
 }
+.intro{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 37em;
+}
+.intro-content {
+  display: 'flex';
+  flex-direction: 'column'; 
+  flex-wrap: wrap;
+  font-family: 'Open Sans Condensed', 'sans-serif';
+  font-size: 1.5em;
+  text-align: left;
+  width: 37em;
+}
 .about-content{
   position: relative;
   left:15em;
 }
+
 .about-content h1{
   font-family: 'Open Sans Condensed', 'sans-serif';
   font-size: 5em;
@@ -130,7 +146,8 @@ li .link:hover{
 	height: 50em;
 	width: auto;
 }
-.work{
+
+.work {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -144,15 +161,23 @@ li .link:hover{
   text-align: left;
 }
 .work .work-content{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-gap: 2em;
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
 }
 
 .project img{
-width: auto;  
-height: 20em;
+  display: flex;
+  width: auto;  
+  height: 15em;
 }
+.project{
+  display: flex;
+  flex-direction: column; 
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .contact{
   position: relative;
   top:20em;
