@@ -1,31 +1,33 @@
 {
   "files": {
-    "main.css": "/sageklein/static/css/main.5088cd36.chunk.css",
-    "main.js": "/sageklein/static/js/main.2644b7db.chunk.js",
-    "main.js.map": "/sageklein/static/js/main.2644b7db.chunk.js.map",
+    "main.css": "/sageklein/static/css/main.2b01eb18.chunk.css",
+    "main.js": "/sageklein/static/js/main.a58d738f.chunk.js",
+    "main.js.map": "/sageklein/static/js/main.a58d738f.chunk.js.map",
     "runtime-main.js": "/sageklein/static/js/runtime-main.54a97d47.js",
     "runtime-main.js.map": "/sageklein/static/js/runtime-main.54a97d47.js.map",
-    "static/js/2.445f7f0a.chunk.js": "/sageklein/static/js/2.445f7f0a.chunk.js",
-    "static/js/2.445f7f0a.chunk.js.map": "/sageklein/static/js/2.445f7f0a.chunk.js.map",
+    "static/js/2.96160736.chunk.js": "/sageklein/static/js/2.96160736.chunk.js",
+    "static/js/2.96160736.chunk.js.map": "/sageklein/static/js/2.96160736.chunk.js.map",
     "index.html": "/sageklein/index.html",
-    "precache-manifest.1ac36b1703c8f9361f0809774dd1a64e.js": "/sageklein/precache-manifest.1ac36b1703c8f9361f0809774dd1a64e.js",
+    "precache-manifest.df9b0241a5412b470fb86e4c2085ea76.js": "/sageklein/precache-manifest.df9b0241a5412b470fb86e4c2085ea76.js",
     "service-worker.js": "/sageklein/service-worker.js",
-    "static/css/main.5088cd36.chunk.css.map": "/sageklein/static/css/main.5088cd36.chunk.css.map",
-    "static/js/2.445f7f0a.chunk.js.LICENSE": "/sageklein/static/js/2.445f7f0a.chunk.js.LICENSE",
+    "static/css/main.2b01eb18.chunk.css.map": "/sageklein/static/css/main.2b01eb18.chunk.css.map",
+    "static/js/2.96160736.chunk.js.LICENSE": "/sageklein/static/js/2.96160736.chunk.js.LICENSE",
     "static/media/BangazonDashboard.png": "/sageklein/static/media/BangazonDashboard.bb696ab8.png",
     "static/media/BangazonFigma.png": "/sageklein/static/media/BangazonFigma.52ab038b.png",
     "static/media/Employee1.png": "/sageklein/static/media/Employee1.01da8591.png",
+    "static/media/SageResume.pdf": "/sageklein/static/media/SageResume.76dbfc93.pdf",
+    "static/media/addComputer.png": "/sageklein/static/media/addComputer.20cd33d1.png",
+    "static/media/App.css": "/sageklein/static/media/tictac.a2e9b7c1.png",
     "static/media/journeyMapping.jpg": "/sageklein/static/media/journeyMapping.204c101a.jpg",
     "static/media/lofi_2.gif": "/sageklein/static/media/lofi_2.f41549bf.gif",
     "static/media/mapping.jpg": "/sageklein/static/media/mapping.92740d86.jpg",
     "static/media/me.jpg": "/sageklein/static/media/me.935b9d94.jpg",
-    "static/media/research.jpg": "/sageklein/static/media/research.9133ede7.jpg",
-    "static/media/App.css": "/sageklein/static/media/tictac.a2e9b7c1.png"
+    "static/media/research.jpg": "/sageklein/static/media/research.9133ede7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.54a97d47.js",
-    "static/js/2.445f7f0a.chunk.js",
-    "static/css/main.5088cd36.chunk.css",
-    "static/js/main.2644b7db.chunk.js"
+    "static/js/2.96160736.chunk.js",
+    "static/css/main.2b01eb18.chunk.css",
+    "static/js/main.a58d738f.chunk.js"
   ]
 }

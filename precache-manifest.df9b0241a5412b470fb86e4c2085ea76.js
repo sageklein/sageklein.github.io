@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7916d3ecdaf8c695550a29fe5cec2a75",
+    "revision": "d3fbe65d145098af12349f8b353ab1e2",
     "url": "/sageklein/index.html"
   },
   {
-    "revision": "103203ef577d067cdcf6",
-    "url": "/sageklein/static/css/main.5088cd36.chunk.css"
+    "revision": "1c6b2af37b3678cbad89",
+    "url": "/sageklein/static/css/main.2b01eb18.chunk.css"
   },
   {
-    "revision": "e479ca7163da706b362d",
-    "url": "/sageklein/static/js/2.445f7f0a.chunk.js"
+    "revision": "a6865bc089366420bdc6",
+    "url": "/sageklein/static/js/2.96160736.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/sageklein/static/js/2.445f7f0a.chunk.js.LICENSE"
+    "url": "/sageklein/static/js/2.96160736.chunk.js.LICENSE"
   },
   {
-    "revision": "103203ef577d067cdcf6",
-    "url": "/sageklein/static/js/main.2644b7db.chunk.js"
+    "revision": "1c6b2af37b3678cbad89",
+    "url": "/sageklein/static/js/main.a58d738f.chunk.js"
   },
   {
     "revision": "477127f221c9562b6977",
@@ -34,6 +34,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "01da859161400c20bd951fe67d736a51",
     "url": "/sageklein/static/media/Employee1.01da8591.png"
+  },
+  {
+    "revision": "76dbfc9394f53536839e1dc26273afd8",
+    "url": "/sageklein/static/media/SageResume.76dbfc93.pdf"
+  },
+  {
+    "revision": "20cd33d11bbf1f9ac438cd17bde681f0",
+    "url": "/sageklein/static/media/addComputer.20cd33d1.png"
+  },
+  {
+    "revision": "5a69c256f0a91fe373bd2f13135cafbe",
+    "url": "/sageklein/static/media/dot-grid.5a69c256.png"
   },
   {
     "revision": "204c101ad273ad8d043e607841687800",
