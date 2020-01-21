@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3fbe65d145098af12349f8b353ab1e2",
+    "revision": "2281287c084bee96b0ee74589acd4544",
     "url": "/sageklein/index.html"
   },
   {
-    "revision": "1c6b2af37b3678cbad89",
+    "revision": "0b4381bca8dce80d611e",
     "url": "/sageklein/static/css/main.2b01eb18.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sageklein/static/js/2.96160736.chunk.js.LICENSE"
   },
   {
-    "revision": "1c6b2af37b3678cbad89",
-    "url": "/sageklein/static/js/main.a58d738f.chunk.js"
+    "revision": "0b4381bca8dce80d611e",
+    "url": "/sageklein/static/js/main.09a7a35f.chunk.js"
   },
   {
     "revision": "477127f221c9562b6977",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sageklein/static/media/Employee1.01da8591.png"
   },
   {
-    "revision": "76dbfc9394f53536839e1dc26273afd8",
-    "url": "/sageklein/static/media/SageResume.76dbfc93.pdf"
+    "revision": "9264a958bd1fd0a85d3ccebeae1dc83c",
+    "url": "/sageklein/static/media/Sage's Resume.9264a958.pdf"
   },
   {
     "revision": "20cd33d11bbf1f9ac438cd17bde681f0",
