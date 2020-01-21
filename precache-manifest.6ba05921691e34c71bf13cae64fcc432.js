@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2281287c084bee96b0ee74589acd4544",
+    "revision": "e854323a4a204383673f9e2a22794b7f",
     "url": "/sageklein/index.html"
   },
   {
-    "revision": "0b4381bca8dce80d611e",
-    "url": "/sageklein/static/css/main.2b01eb18.chunk.css"
+    "revision": "174e69a296c890b083b0",
+    "url": "/sageklein/static/css/main.b6219c5c.chunk.css"
   },
   {
-    "revision": "a6865bc089366420bdc6",
-    "url": "/sageklein/static/js/2.96160736.chunk.js"
+    "revision": "211e1ad7d55ed1198436",
+    "url": "/sageklein/static/js/2.67b64ac7.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/sageklein/static/js/2.96160736.chunk.js.LICENSE"
+    "url": "/sageklein/static/js/2.67b64ac7.chunk.js.LICENSE"
   },
   {
-    "revision": "0b4381bca8dce80d611e",
-    "url": "/sageklein/static/js/main.09a7a35f.chunk.js"
+    "revision": "174e69a296c890b083b0",
+    "url": "/sageklein/static/js/main.802b58c2.chunk.js"
   },
   {
-    "revision": "477127f221c9562b6977",
-    "url": "/sageklein/static/js/runtime-main.54a97d47.js"
+    "revision": "453728540e62bd42edfb",
+    "url": "/sageklein/static/js/runtime-main.2f17a674.js"
   },
   {
     "revision": "bb696ab8bef5e2640a7d68aefa99e648",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9133ede7f5b93d343226895c0bfc592e",
     "url": "/sageklein/static/media/research.9133ede7.jpg"
+  },
+  {
+    "revision": "ea2316224d45899c59bc285ba09dd920",
+    "url": "/sageklein/static/media/shattered.ea231622.png"
   },
   {
     "revision": "a2e9b7c1a25043babe15db454814857c",
