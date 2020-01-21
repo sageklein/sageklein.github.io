@@ -28,6 +28,7 @@ class Header extends Component {
 							<a
 								href={`mailto:${data.contactEmail}`}
 								rel="noopener noreferrer"
+								target="_blank"
 							>
 								Contact
 							</a>
@@ -36,6 +37,7 @@ class Header extends Component {
 							<a
 								href={`${data.resume}`}
 								rel="noopener noreferrer"
+								target="_blank"
 							>
 								Download Resume
 							</a>
