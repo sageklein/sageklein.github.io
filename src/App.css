@@ -11,7 +11,7 @@ body{
   z-index: 1;
 }
 .workBg{
-	background-image: url(./images/dot-grid.png); 
+	background-image: url(./images/shattered.png); 
   background-size: repeat;
   top: 0; 
   padding-left: 15em; 
@@ -140,7 +140,7 @@ li .link:hover{
   font-family: 'Open Sans Condensed', 'sans-serif';
   font-size: 1.5em;
   text-align: left;
-  width: 37em;
+  width: 50em;
 }
 .about-content{
   position: relative;
