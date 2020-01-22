@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e854323a4a204383673f9e2a22794b7f",
+    "revision": "ecfdac95433a580ada3011fcd0fad869",
     "url": "/sageklein/index.html"
   },
   {
-    "revision": "174e69a296c890b083b0",
-    "url": "/sageklein/static/css/main.b6219c5c.chunk.css"
+    "revision": "27f7b203f9413617450f",
+    "url": "/sageklein/static/css/main.528528bd.chunk.css"
   },
   {
     "revision": "211e1ad7d55ed1198436",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sageklein/static/js/2.67b64ac7.chunk.js.LICENSE"
   },
   {
-    "revision": "174e69a296c890b083b0",
-    "url": "/sageklein/static/js/main.802b58c2.chunk.js"
+    "revision": "27f7b203f9413617450f",
+    "url": "/sageklein/static/js/main.faebe8eb.chunk.js"
   },
   {
     "revision": "453728540e62bd42edfb",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "20cd33d11bbf1f9ac438cd17bde681f0",
     "url": "/sageklein/static/media/addComputer.20cd33d1.png"
-  },
-  {
-    "revision": "5a69c256f0a91fe373bd2f13135cafbe",
-    "url": "/sageklein/static/media/dot-grid.5a69c256.png"
   },
   {
     "revision": "204c101ad273ad8d043e607841687800",
