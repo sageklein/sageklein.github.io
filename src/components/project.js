@@ -18,7 +18,7 @@ class Project extends Component {
 					<div className="pic_under">
 						<h1>{this.props.title}</h1>
 						<h2>
-							<span>{this.props.service}</span>
+							<span className="service">{this.props.service}</span>
 						</h2>
 					</div>
 				</div>
