@@ -6,7 +6,7 @@ class Contact extends Component {
 	state = {};
 	render() {
 		return (
-			<div>
+			<div className="contact">
 				<h1>
 					<Fade bottom cascade>
 						{" "}
@@ -27,7 +27,7 @@ class Contact extends Component {
 						>
 							{data.contactEmail}
 						</a>
-						<ul>
+						<ul className="social">
 							{data.social.map((link, index) => (
 								<li key={index}>
 									<a

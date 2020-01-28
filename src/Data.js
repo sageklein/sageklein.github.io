@@ -11,6 +11,8 @@ import addComputer from "./images/addComputer.png"
 
 export default {
 	name: "Sage Klein",
+	Showname: true,
+
 	headerTagline: [
 		//Line 1 For Header
 		"Sage Klein",
@@ -26,8 +28,8 @@ export default {
 	abouttext:
 		"As a Front End Web Developer I am passionate about combining my love of coding with my love of continued learning. With my UI/UX trailing and strong communication skills I produce beautiful and well thought out design work. With a positive attitude and strong growth mindset, I am self motivated and work well in groups. Empathy, persistence, curiosity and an obsession with details are my motivating factors when designing.",
 	aboutImage: me,
-
 	ShowAboutImage: true,
+
 	intro:
 		"Bangazon is a group project I participated in while at Nashville Software School. We were tasked with creating a company intranet website for an Amazon-esque marketplace. We consulted with company stakeholders to determine the functionality and requirements of the platform. The color Palette was put together based on design guideliness dictated by the Hubspot Canvas Design System. For this project I Designed the Personas featured below. I helped design a journey map to help understand the individual's relationships with the website and products it contains. I also utilized Lo-Fi Mockups for tangible representation of our design concept and use flow for feedback on improving our design. I interviewed stakeholders during the Lo-Fi Mockup navigation process and took notes on feedback and personal observations. Finally I helped make a Hi-Fi Mockup using Figma.",
 	projects: [
@@ -43,7 +45,7 @@ export default {
 		{
 			id: 2,
 			title: "Journey/Empathy Mapping",
-			service: "Creating a Map to Gain Deeper Understanding of Users",
+			service: "Gaining a Deeper Understanding of Users",
 			imageSrc: empathy
 			// url: "http://sageklein.com/"
 		},

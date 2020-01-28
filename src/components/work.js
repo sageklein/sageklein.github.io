@@ -12,15 +12,17 @@ class Work extends Component {
 
 		return (
 			<div className="workBg">
-				<h1 className="heading">
+				<div className="work-heading">
 					<Fade bottom cascade>
 						Work.
 					</Fade>
-				</h1>{" "}
+				</div>{" "}
 				<Fade bottom>
-					<p className="intro-content">{data.intro}</p>
+					<div className="intro-content">
+					<p>{data.intro}</p>
+					</div>
 				</Fade>
-				<div className="work-content">
+				<div className="project_container">
 					{data.projects.map(project => (
 						<Project
 							key={project.id}

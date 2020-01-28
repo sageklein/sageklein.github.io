@@ -2,17 +2,22 @@ import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 import data from "../Data";
 
+
 class Header extends Component {
 	state = {};
 
 	render() {
 		return (
 			<div>
-				<h1 className="heading-background"> </h1>
+
 				<header>
 					<h1>
 						<Fade bottom cascade>
-							{data.name}
+					<div className="name">
+						{data.Showname ? (
+							data.name
+						): null}
+					</div>
 						</Fade>
 					</h1>
 				</header>
@@ -24,7 +29,8 @@ class Header extends Component {
 						<br></br>
 						{data.headerTagline[2]}
 						<br></br>
-						<button>
+						<div className="button">
+						<button >
 							<a
 								href={`mailto:${data.contactEmail}`}
 								rel="noopener noreferrer"
@@ -42,6 +48,7 @@ class Header extends Component {
 								Download Resume
 							</a>
 						</button>
+						</div>
 					</p>
 				</Fade>
 			</div>
