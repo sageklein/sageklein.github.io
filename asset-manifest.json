@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sageklein/static/css/main.8cf88a53.chunk.css",
-    "main.js": "/sageklein/static/js/main.961b708d.chunk.js",
-    "main.js.map": "/sageklein/static/js/main.961b708d.chunk.js.map",
+    "main.css": "/sageklein/static/css/main.f295e043.chunk.css",
+    "main.js": "/sageklein/static/js/main.c88b6077.chunk.js",
+    "main.js.map": "/sageklein/static/js/main.c88b6077.chunk.js.map",
     "runtime-main.js": "/sageklein/static/js/runtime-main.2f17a674.js",
     "runtime-main.js.map": "/sageklein/static/js/runtime-main.2f17a674.js.map",
     "static/js/2.67b64ac7.chunk.js": "/sageklein/static/js/2.67b64ac7.chunk.js",
     "static/js/2.67b64ac7.chunk.js.map": "/sageklein/static/js/2.67b64ac7.chunk.js.map",
     "index.html": "/sageklein/index.html",
-    "precache-manifest.a2275e3b662d78dc94c4cd52a6e895a0.js": "/sageklein/precache-manifest.a2275e3b662d78dc94c4cd52a6e895a0.js",
+    "precache-manifest.4c295ff5d54b247f3fa7e4eda9135221.js": "/sageklein/precache-manifest.4c295ff5d54b247f3fa7e4eda9135221.js",
     "service-worker.js": "/sageklein/service-worker.js",
-    "static/css/main.8cf88a53.chunk.css.map": "/sageklein/static/css/main.8cf88a53.chunk.css.map",
+    "static/css/main.f295e043.chunk.css.map": "/sageklein/static/css/main.f295e043.chunk.css.map",
     "static/js/2.67b64ac7.chunk.js.LICENSE": "/sageklein/static/js/2.67b64ac7.chunk.js.LICENSE",
     "static/media/BangazonDashboard.png": "/sageklein/static/media/BangazonDashboard.bb696ab8.png",
     "static/media/BangazonFigma.png": "/sageklein/static/media/BangazonFigma.52ab038b.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.2f17a674.js",
     "static/js/2.67b64ac7.chunk.js",
-    "static/css/main.8cf88a53.chunk.css",
-    "static/js/main.961b708d.chunk.js"
+    "static/css/main.f295e043.chunk.css",
+    "static/js/main.c88b6077.chunk.js"
   ]
 }
