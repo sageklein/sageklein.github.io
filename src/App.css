@@ -141,6 +141,8 @@ li .link:hover{
   font-family: 'oswald';
   font-size: 1.5em;
   width: 65em;
+  display: inline-block;
+  position: relative;
   padding-top: 2.5em;
   padding-bottom: 2.5em;
 }
