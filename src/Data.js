@@ -17,7 +17,7 @@ export default {
 		//Line 1 For Header
 		"Sage Klein",
 		//Line 2 For Header
-		"UX/UI Application Developer",
+		"UX/UI Application Designer",
 		//Line 3 For Header
 		"Nashville TN"
 	],
