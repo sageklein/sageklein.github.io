@@ -1,33 +1,48 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
+/* ________________________________ */
 /* BODY AND BACKGROUNDS */
 body{
   font-size: 16px;
 	background-image: url(./images/tictac.png);
-  font-family: 'Open Sans Condensed', 'sans-serif';
+  font-family: 'Libre Franklin', sans-serif;
+  line-height: 2.5em;
   letter-spacing: 5px;
+  padding-left: 1em;
 }
-.workBg{
-  background-image: url(./images/shattered.png);
-  background-size: repeat;
+.main-wraper{
+  display: 'flex';
+  flex-direction: 'column'; 
+  flex-wrap: wrap;
   top: 0; 
-  padding-left: 8em; 
-  min-width: 2000px;
+  padding-left: 1em; 
 }
+.allProjects{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+}
+.img_link{
+	height: 20em;
+	width: auto;
+}
+
+
+/* ________________________________ */
 /* NAME AND TITLE AND BUTTONS */
 .header-title {
-  position: relative;
-  font-weight: bold;
-  min-height: 70vh;
-  padding: 2em;
-  font-family: 'Open Sans Condensed', 'sans-serif';
-  font-size: 3.2em;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  padding-top: 4em;
+  font-weight: bold;
+  font-family: 'Libre Franklin', sans-serif;
+  line-height: 1.5em;
+  font-size: 3.2em;
   color: #404040;
-  top:1em;
+
+      padding-bottom: 3em;
 }
 .name {
   display: none;
@@ -40,9 +55,10 @@ h2{
   background: #FFD3DA;
   text-shadow: 1px 1px rgb(245, 128, 147);
   border: 0px;
-  font-size: .5em;
+  border-radius: .2em;
+  font-size: .8em;
   color: black;
-  padding: .2em 1.8em .2em 1.8em;
+  padding: .3em 1.8em .3em 1.8em;
   letter-spacing: .2em;
   transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
@@ -57,21 +73,26 @@ h2{
   opacity: 0.8;
 }
 .header-title button a{
-  font-family: 'Open Sans Condensed', 'sans-serif';
+font-family: 'Libre Franklin', sans-serif;
   font-size: .8em;
   color:black;
   text-decoration: none;
+
 }
+
+
+/* ________________________________ */
 /* NAV BAR LINKS */
 nav{
   display: flex;
   justify-content: flex-end;
-  top:3em;
+  top: 0;
   position: sticky;
 }
 nav li{
   display: inline-block;
   cursor: pointer;
+    top: 0;
 }
 nav li .link{
   text-decoration: none;
@@ -79,6 +100,7 @@ nav li .link{
   color: black;
   padding:1em;
   opacity: .8;
+    top: 0;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -93,41 +115,49 @@ li .link:hover{
   color:black;
   opacity: 1;
 }
+
+
+
+/* ________________________________ */
 /* ABOUT SECTION */
 .about{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+
 }
-.about-content{
-  display: inline-block;
-  position: relative;
-  left:8em;
+.allProjects{
+  display: flex;
+  flex-direction: row;
 }
 .about-content h1{
   font-family: 'Open Sans Condensed', 'sans-serif';
+  padding-top: 4em;
   font-size: 5em;
   text-align: left;
 }
 .about-content p{
-  font-family: 'Oswald';
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 1.5em;
-  text-align: left;
-  padding-bottom: 25em;
+  padding-bottom: 10em;
 }
-.about img{
-  margin-left: 2em;
-  margin-right: 15em;
+.img{
+  display: flex;
+  justify-content: center;
+}
+.picture{
 	border: 0.1em solid black;
 	height: 55em;
   width: auto;
 }
+
+
 /* BANGAZON INFORMATION */
 .work-heading{
   font-family: 'Open Sans Condensed', 'sans-serif';
   font-size: 5em;
   text-align: left;
   font-weight: bold;
-  padding-top: 1em;
+  padding-bottom: .5em;
 }
 .intro{
   font-weight: bold;
@@ -136,40 +166,30 @@ li .link:hover{
 
 }
 .intro-content{
-  display: 'flex';
-  flex-direction: 'column'; 
-  flex-wrap: wrap;
-  font-family: 'oswald';
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 1.5em;
-  width: 60em;
-  display: inline-block;
-  position: relative;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
+  padding-bottom: 10em;
 }
 .project_container{
   display: flex;
   flex-direction: row; 
-  flex-wrap: wrap;
   align-items: center;
   width: fit-content;
+
 }
-.project{
-  display: flex;
-  flex-direction: column; 
-  padding: 1em 1em 1em 1em;
-  align-items: center;
-  width: 44em;
-}
-.project_img{
+
+.img_link{
   display: flex;
   width: auto;  
-  height: 20em;
+  height: 28em;
   flex-direction: row;
   justify-content: space-around;
+    padding: 1em;
 }
-.pic_under{
-  text-align: center;
+.img_block{
+  display: flex;
+    flex-direction: column;
+  align-items: center;
 }
 .service{
   font-size: 1.2em;
@@ -182,16 +202,19 @@ li .link:hover{
 .contact{
   position: relative;
   top:35em;
-  left:15em;
+  left:5em;
   text-align: left;
 }
 .contact h1{
   font-family: 'oswald';
+  line-height: 1em;
   font-size: 5em;
   text-align: left;
 }
 .amazing-color{
   color:#FFD3DA;
+    line-height: 1em;
+
   text-shadow: 1px 1px rgb(245, 128, 147);
 }
 .contact .email{
@@ -221,6 +244,9 @@ li .link:hover{
 }
 
 
+
+
+
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-device-width: 320px) and (max-device-width : 480px){
   
@@ -228,12 +254,7 @@ li .link:hover{
 body{
   font-size: 6px;
 }
-.workBg{
-  top: 0; 
-  padding-left: 1em; 
-  min-width: 100%;
-  min-height: 100%;
-}
+
 /* NAME AND TITLE AND BUTTONS */
 header h1{
  display: flex;
@@ -245,7 +266,7 @@ header h1{
   opacity: 0.8;
 }
 .header-title button a{
-  font-family: 'Open Sans Condensed', 'sans-serif';
+
   font-size: 1.8em;
   color:black;
   text-decoration: none;
@@ -268,7 +289,7 @@ nav{
   display: flex;
   top:-30em;
 }
-.about img{
+.picture{
 	margin-left: -30em;
   border: 0.1em solid black;
   margin-top: 52em;
@@ -294,12 +315,12 @@ nav{
   display: flex;
   align-self: left;
   font-size: 2.5em;
-  text-align: left;
   width: 440px;
 }
 .work{
   left:0em;
   top:2em;
+  padding-bottom: 2em;
   align-items: flex-start;
 }
 .work-content{
@@ -310,7 +331,7 @@ nav{
   display: 'flex';
   flex-direction: 'column'; 
   flex-wrap: wrap;
-  font-family: 'oswald';
+
   font-size: 2em;
   padding-top: 2.5em;
   padding-bottom: 2.5em;

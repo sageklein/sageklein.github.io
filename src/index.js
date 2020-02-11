@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import { HashRouter as Router } from "react-router-dom";
 import App from "./App";
-import * as serviceWorker from "./serviceWorker";
-
-ReactDOM.render(<App />, document.getElementById("root"));
 
 
-serviceWorker.unregister();
+ReactDOM.render(
+	<Router>
+		<App />
+	</Router>,
+	document.getElementById("root")
+);

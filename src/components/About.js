@@ -22,6 +22,7 @@ class About extends Component {
 					<img src={data.aboutImage} alt="Sage Klein"></img>
 				) : null}
 			</div>
+
 		);
 	}
 }
