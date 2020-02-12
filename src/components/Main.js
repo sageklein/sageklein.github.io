@@ -11,13 +11,6 @@ class Main extends Component {
 			<div className="main-wraper">
 				<Header />
 				<div className="about-content">
-					<div className="img">
-						<img
-							src={require("../images/me.jpg")}
-							className="picture"
-							alt="Sage Klein"
-						/>
-					</div>
 					<h1>
 						<Fade bottom cascade>
 							About.
@@ -25,7 +18,14 @@ class Main extends Component {
 					</h1>
 
 					<Fade bottom>
-						<p>{data.abouttext}</p>
+						<div className="img">
+							<p>{data.abouttext}</p>
+							<img
+								src={require("../images/me.jpg")}
+								className="picture"
+								alt="Sage Klein"
+							/>
+						</div>
 					</Fade>
 				</div>
 				<Fade bottom cascade>
@@ -33,6 +33,9 @@ class Main extends Component {
 				</Fade>
 				<Fade bottom>
 					<p className="intro-content">{data.intro}</p>
+					<p className="intro-content">{data.intro2}</p>
+					<p className="intro-content">{data.intro3}</p>
+					<p className="intro-content"></p>
 				</Fade>
 				<Fade bottom>
 					<div className="allProjects">
@@ -85,3 +88,5 @@ class Main extends Component {
 }
 
 export default Main;
+
+

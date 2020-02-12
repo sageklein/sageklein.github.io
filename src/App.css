@@ -9,14 +9,17 @@ body{
   font-family: 'Libre Franklin', sans-serif;
   line-height: 2.5em;
   letter-spacing: 5px;
-  padding-left: 1em;
+  margin: 0;
+  padding: 0;
 }
 .main-wraper{
   display: 'flex';
   flex-direction: 'column'; 
   flex-wrap: wrap;
   top: 0; 
-  padding-left: 1em; 
+  padding-left: 2em;
+  padding-right: 2em;
+
 }
 .allProjects{
   display: flex;
@@ -32,17 +35,15 @@ body{
 
 /* ________________________________ */
 /* NAME AND TITLE AND BUTTONS */
-.header-title {
+.header-title1 {
   display: flex;
-  flex-direction: column;
-  padding-top: 4em;
-  font-weight: bold;
-  font-family: 'Libre Franklin', sans-serif;
-  line-height: 1.5em;
-  font-size: 3.2em;
+  flex-direction: row;
+  padding-top: 1em;
+  font-family: 'Open Sans Condensed', 'sans-serif';
+  line-height: 1em;
+  font-size: 5em;
   color: #404040;
-
-      padding-bottom: 3em;
+  padding-bottom: .5em;
 }
 .name {
   display: none;
@@ -51,42 +52,41 @@ h2{
   font-size: 1em;
   color: black;
 }
+
+.button:hover{
+  opacity: 0.8;
+}
 .header-title button{
   background: #FFD3DA;
-  text-shadow: 1px 1px rgb(245, 128, 147);
   border: 0px;
-  border-radius: .2em;
-  font-size: .8em;
-  color: black;
-  padding: .3em 1.8em .3em 1.8em;
-  letter-spacing: .2em;
+  font-size: 1.2em;
+  padding: .2em 4em;
   transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
 }
-.resume{
-  margin: .3em;
+.header-title .resume{
+  padding-left: 1em;
 }
 .header-title button:hover{
   opacity: 0.8;
 }
 .header-title button a{
-font-family: 'Libre Franklin', sans-serif;
-  font-size: .8em;
+  font-family: 'Open Sans', sans-serif;
   color:black;
   text-decoration: none;
-
 }
-
 
 /* ________________________________ */
 /* NAV BAR LINKS */
 nav{
   display: flex;
   justify-content: flex-end;
+  background-color: white;
   top: 0;
+  width: 100%;
   position: sticky;
 }
 nav li{
@@ -96,11 +96,11 @@ nav li{
 }
 nav li .link{
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.2em;
   color: black;
   padding:1em;
   opacity: .8;
-    top: 0;
+  top: 0;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -138,15 +138,17 @@ li .link:hover{
 .about-content p{
   font-family: 'Libre Franklin', sans-serif;
   font-size: 1.5em;
-  padding-bottom: 10em;
+  padding-bottom: 1em;
+  max-width: 55em;
 }
 .img{
   display: flex;
   justify-content: center;
 }
 .picture{
-	border: 0.1em solid black;
-	height: 55em;
+  padding-right: 2em;
+  max-height: 50em;
+  float: right;
   width: auto;
 }
 
@@ -154,7 +156,7 @@ li .link:hover{
 /* BANGAZON INFORMATION */
 .work-heading{
   font-family: 'Open Sans Condensed', 'sans-serif';
-  font-size: 5em;
+  font-size: 4em;
   text-align: left;
   font-weight: bold;
   padding-bottom: .5em;
@@ -163,19 +165,18 @@ li .link:hover{
   font-weight: bold;
   display: flex;
   flex-direction: row;
-
 }
 .intro-content{
   font-family: 'Libre Franklin', sans-serif;
   font-size: 1.5em;
-  padding-bottom: 10em;
+  padding-bottom: 1em;
+  max-width: 70em;
 }
 .project_container{
   display: flex;
   flex-direction: row; 
   align-items: center;
   width: fit-content;
-
 }
 
 .img_link{
@@ -184,11 +185,11 @@ li .link:hover{
   height: 28em;
   flex-direction: row;
   justify-content: space-around;
-    padding: 1em;
+  padding: 1em;
 }
 .img_block{
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   align-items: center;
 }
 .service{
@@ -208,13 +209,12 @@ li .link:hover{
 .contact h1{
   font-family: 'oswald';
   line-height: 1em;
-  font-size: 5em;
+  font-size: 4em;
   text-align: left;
 }
 .amazing-color{
   color:#FFD3DA;
-    line-height: 1em;
-
+  line-height: 1em;
   text-shadow: 1px 1px rgb(245, 128, 147);
 }
 .contact .email{
@@ -254,6 +254,7 @@ li .link:hover{
 body{
   font-size: 6px;
 }
+
 
 /* NAME AND TITLE AND BUTTONS */
 header h1{
