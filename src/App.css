@@ -129,7 +129,7 @@ li .link:hover{
 }
 .about-content h1{
 font-family: 'Open Sans Condensed', 'sans-serif';
-    padding-top: 4em;
+    padding-top: 2.5em;
     font-size: 5em;
 
   text-align: left;
@@ -248,6 +248,7 @@ font-family: 'Open Sans Condensed', 'sans-serif';
 .blurb{
   font-size: 1em;
   max-width: 38em;
+  line-height: 1.5em;
 }
 .buttonDiv{
   display: flex;

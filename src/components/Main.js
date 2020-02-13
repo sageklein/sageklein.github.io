@@ -40,8 +40,9 @@ class Main extends Component {
 						<p className="intro-content">{data.intro2}</p>
 						<p className="intro-content">{data.intro3}</p>
 					</Fade>
-					<Fade bottom>
+
 						<div className="allProjects">
+					<Fade bottom>
 							<div className="img_block">
 								<div className="header-title">
 									<a
@@ -56,19 +57,15 @@ class Main extends Component {
 											alt="Bangazon"
 										/>
 									</a>
-									<h2 className="date">December 2019</h2>
+									<h2 className="date">Bangazon</h2>
 									<h2 className="blurb">
-										Alcanza is a design solution for client
-										Tennessee Immigrant & Refugee Rights
-										Coalition (TIRRC) of a citizenship
-										mentoring app, showcasing user research,
-										contextual inquiry, lo- and hi-fi
-										mockups, usability testing, user flow
-										charts, and functional decomposition of
-										the user experience of all user types:
-										mentors, mentees, and admins. Resulted
-										in high client satisfaction by
-										clarifying user needs and program goals.
+										Delivered user experience design plan to
+										stakeholders for an Etsy-like intranet
+										platform incorporating information
+										architecture, lo-fi and hi-fi mockups,
+										user testing, competitor analysis,
+										journey mapping, content mapping, and
+										the HubSpot Canvas design system..
 									</h2>
 									<div className="buttonDiv">
 										<a
@@ -94,7 +91,7 @@ class Main extends Component {
 									</div>
 								</div>
 							</div>
-						</div>
+
 					</Fade>
 					<Fade bottom>
 						<div className="img_block">
@@ -111,7 +108,7 @@ class Main extends Component {
 										alt="CasaAszafran"
 									/>
 								</a>
-								<h2 className="date">Jan-Feb 2020</h2>
+								<h2 className="date">Alcanza</h2>
 								<h2 className="blurb">
 									Alcanza is a design solution for client
 									Tennessee Immigrant & Refugee Rights
@@ -164,12 +161,12 @@ class Main extends Component {
 										alt="Hitpan"
 									/>
 								</a>
-								<h2 className="date">November 2019</h2>
+								<h2 className="date">Hit Pan</h2>
 								<h2 className="blurb">
 									HitPan is an application designed to help
-									people organize their make up. This
+									people organize their make up. Hitpan is an enviromentally conscious application. This
 									application was inspired by a statistic I
-									read about
+									read about consumer waste rising because of cosmetic waste. I built this appliction after 3 months at Nashville Software School, a coding bootcamp.
 								</h2>
 								<div className="buttonDiv">
 									<a
@@ -212,7 +209,7 @@ class Main extends Component {
 										alt="Sidekick"
 									/>
 								</a>
-								<h2 className="date">February 2020</h2>
+								<h2 className="date">Sidekick</h2>
 								<h2 className="blurb">
 									Sidekick is a behavioral modification
 									Website Application for Teachers and
@@ -245,6 +242,7 @@ class Main extends Component {
 							</div>
 						</div>
 					</Fade>
+					</div>
 				</div>
 			</div>
 		);
