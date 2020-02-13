@@ -49,7 +49,7 @@ body{
   display: none;
 }
 h2{
-  font-size: 1em;
+  font-size: 1.8em;
   color: black;
 }
 
@@ -60,7 +60,7 @@ h2{
   background: #FFD3DA;
   border: 0px;
   font-size: 1.2em;
-  padding: .2em 4em;
+  padding: .2em 3em;
   transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -145,6 +145,7 @@ li .link:hover{
 .img{
   display: flex;
   justify-content: center;
+  padding-right: 2em;
 }
 .picture{
   padding-right: 2em;
@@ -152,7 +153,10 @@ li .link:hover{
   float: right;
   width: auto;
 }
-
+.back{
+  display: flex;
+  justify-content: flex-end;
+}
 
 /* BANGAZON INFORMATION */
 .work-heading{
