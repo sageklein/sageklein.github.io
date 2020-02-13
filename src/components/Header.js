@@ -30,7 +30,7 @@ class Header extends Component {
 						</p>
 						<br></br>{" "}
 					</div>
-					<div className="header-title">
+					<div className="header-title2">
 						<a
 							className="header-title"
 							href={`mailto:${data.contactEmail}`}
@@ -40,7 +40,7 @@ class Header extends Component {
 							<button className=" header-title">Contact</button>
 						</a>
 						<a
-							className="header-title, resume"
+							className="header-title"
 							href={`${data.resume}`}
 							rel="noopener noreferrer"
 							target="_blank"
