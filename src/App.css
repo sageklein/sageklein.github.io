@@ -292,11 +292,16 @@ header h1{
 nav{
   display: none;
 }
-.header-title{
-  font-size: 3em;
-  text-align: left;
-  top:1em;
-  left: 0.1em;
+.header-title button{
+  background: #FFD3DA;
+  border: 0px;
+  font-size: 1.2em;
+  padding: .2em 3em;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
 }
 .about{
   position: relative;
@@ -307,7 +312,7 @@ nav{
 	margin-left: -30em;
   border: 0.1em solid black;
   margin-top: 52em;
-	height: 50em;
+	height: 30em;
 	width: auto;
 }
 .about-content{
@@ -316,6 +321,7 @@ nav{
 .about-content p{
   font-size: 2.5em;
   font-family: 'Oswald';
+  padding-top: 5em;
   text-align: left;
   width: 450px;
 }
@@ -406,5 +412,20 @@ nav{
   padding: 1em;
   font-size: 2em;
 }
-
+.blurb{
+  font-size: 1em;
+  max-width: 20em;
+  line-height: 1.5em;
+}
+.buttonDiv{
+  display: flex;
+  justify-content: flex-start;
+}
+.img_link{
+  display: flex;
+  width: 20em;  
+  height: auto;
+  /* flex-direction: row;
+  justify-content: space-around; */
+}
 }

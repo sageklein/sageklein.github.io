@@ -65,7 +65,7 @@ class Main extends Component {
 										architecture, lo-fi and hi-fi mockups,
 										user testing, competitor analysis,
 										journey mapping, content mapping, and
-										the HubSpot Canvas design system..
+										the HubSpot Canvas design system.
 									</h2>
 									<div className="buttonDiv">
 										<a
