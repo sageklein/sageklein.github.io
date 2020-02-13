@@ -1,43 +1,59 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1d31e2bc5fabea4c3b79f9395870508",
+    "revision": "8fc3dac4065555fdd27e7d19a18f94b5",
     "url": "/sageklein/index.html"
   },
   {
-    "revision": "6c6b8a9db63a7877df95",
-    "url": "/sageklein/static/css/main.e1a7aa7b.chunk.css"
+    "revision": "ab59df87bcd053a0d81b",
+    "url": "/sageklein/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "211e1ad7d55ed1198436",
-    "url": "/sageklein/static/js/2.67b64ac7.chunk.js"
+    "revision": "bcf140f4c7ec7a76f966",
+    "url": "/sageklein/static/css/main.5839b11a.chunk.css"
   },
   {
-    "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/sageklein/static/js/2.67b64ac7.chunk.js.LICENSE"
+    "revision": "ab59df87bcd053a0d81b",
+    "url": "/sageklein/static/js/2.8155b26c.chunk.js"
   },
   {
-    "revision": "6c6b8a9db63a7877df95",
-    "url": "/sageklein/static/js/main.56e787ea.chunk.js"
+    "revision": "928d7b5eb39d16fe9a880722c974b51e",
+    "url": "/sageklein/static/js/2.8155b26c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "453728540e62bd42edfb",
-    "url": "/sageklein/static/js/runtime-main.2f17a674.js"
+    "revision": "bcf140f4c7ec7a76f966",
+    "url": "/sageklein/static/js/main.f260745e.chunk.js"
   },
   {
-    "revision": "bb696ab8bef5e2640a7d68aefa99e648",
-    "url": "/sageklein/static/media/BangazonDashboard.bb696ab8.png"
+    "revision": "befc3b656cc162cd9159",
+    "url": "/sageklein/static/js/runtime-main.aa154323.js"
+  },
+  {
+    "revision": "8e0675f7b0ef0b6d8a3e6f70c89b2402",
+    "url": "/sageklein/static/media/BangazonDashboard.8e0675f7.png"
   },
   {
     "revision": "52ab038bb208f3efc13ea00e41188682",
     "url": "/sageklein/static/media/BangazonFigma.52ab038b.png"
   },
   {
+    "revision": "f5620f05672df76dea630138b2cebb06",
+    "url": "/sageklein/static/media/Casaasa.f5620f05.png"
+  },
+  {
     "revision": "01da859161400c20bd951fe67d736a51",
     "url": "/sageklein/static/media/Employee1.01da8591.png"
   },
   {
+    "revision": "1ce9a35c71b5053809e33c8dec704489",
+    "url": "/sageklein/static/media/Hitpan.1ce9a35c.png"
+  },
+  {
     "revision": "9264a958bd1fd0a85d3ccebeae1dc83c",
     "url": "/sageklein/static/media/Sage's Resume.9264a958.pdf"
+  },
+  {
+    "revision": "c465f1a197b82d03bd7d9f50eb3876c6",
+    "url": "/sageklein/static/media/Sidekick.c465f1a1.png"
   },
   {
     "revision": "20cd33d11bbf1f9ac438cd17bde681f0",
@@ -62,10 +78,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9133ede7f5b93d343226895c0bfc592e",
     "url": "/sageklein/static/media/research.9133ede7.jpg"
-  },
-  {
-    "revision": "ea2316224d45899c59bc285ba09dd920",
-    "url": "/sageklein/static/media/shattered.ea231622.png"
   },
   {
     "revision": "a2e9b7c1a25043babe15db454814857c",
