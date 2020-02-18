@@ -17,9 +17,7 @@ class Contact extends Component {
 					<div className="contact-content">
 						<h1>
 							Let's make something<br></br>
-							<span className="amazing-color">
-								amazing
-							</span>
+							<span className="amazing-color">amazing</span>
 						</h1>
 						<a
 							href={`mailto:${data.contactEmail}`}
@@ -45,6 +43,7 @@ class Contact extends Component {
 
 				<span className="footer">
 					{" "}
+						<p className="footer">Copyright © 2020 Sage Klein</p>
 
 				</span>
 			</div>

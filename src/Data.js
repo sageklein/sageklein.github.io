@@ -6,7 +6,7 @@ import Research from "./images/research.jpg";
 import Mapping from "./images/journeyMapping.jpg";
 import empathy from "./images/mapping.jpg";
 import BangazonDashBoard from "./images/BangazonDashboard.png";
-import resume from "./images/Sage's Resume.pdf"
+import resume from "./images/SageResume.pdf"
 import addComputer from "./images/addComputer.png"
 
 export default {
