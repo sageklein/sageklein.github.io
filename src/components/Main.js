@@ -29,7 +29,8 @@ class Main extends Component {
 						</Fade>
 					</div>
 				</div>
-				<div className="work, work-content">
+				<div className="work-content">
+					<div className="work">
 					<h1>
 						<Fade bottom cascade>
 							Work.
@@ -40,7 +41,7 @@ class Main extends Component {
 						<p className="intro-content">{data.intro2}</p>
 						<p className="intro-content">{data.intro3}</p>
 					</Fade>
-
+</div>
 					<div className="allProjects">
 						<Fade bottom>
 							<div className="img_block">

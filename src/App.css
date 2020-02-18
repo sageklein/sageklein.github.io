@@ -252,7 +252,7 @@ font-family: 'Open Sans Condensed', 'sans-serif';
   top:2em;
   padding: 1em;
   color:#404040;
-  text-align: right;
+  padding-left: 70%;
 }
 .footer a{
   text-decoration: none;
@@ -332,13 +332,15 @@ nav{
   left:1em;
 
 }
-.about-content .work-content h1{
+.about-content 
+.work-content h1{
   font-family: 'Open Sans Condensed', 'sans-serif';
-  padding-top: 6em;
+  padding-top: 4em;
   font-size: 5em;
   text-align: left;
 }
-.about-content .work-content p{
+.about-content 
+.work-content p{
   font-size: 2.5em;
   font-family: 'Libre Franklin', sans-serif;
   line-height: 1.5em;
@@ -347,15 +349,17 @@ nav{
   width: 450px;
 }
 
-/* BANGAZON INFORMATION */
 
-.work .about{
+
+.work 
+.about{
   left:0em;
   top:2em;
   padding-bottom: 2em;
   align-items: flex-start;
 }
-.work-content{
+.work-content
+.about-content{
   display: 'flex';
   flex-direction: 'column'; 
   flex-wrap: wrap;
@@ -400,10 +404,10 @@ nav{
   font-size: 2em;
 }
 .blurb{
-  font-size: 1em;
+  font-size: 1.5em;
   max-width: 30em;
   line-height: 1.5em;
-    padding-left: .5;
+  padding-left: .5;
 }
 .buttonDiv{
   display: flex;
