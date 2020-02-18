@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82f7f2ee58f01937061248f934425384",
+    "revision": "4ee45db899666285c4c3be6b4f01488d",
     "url": "/sageklein/index.html"
   },
   {
-    "revision": "ab59df87bcd053a0d81b",
+    "revision": "2f39d8d38709ad49a78a",
     "url": "/sageklein/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "c4efd8557ad72a78c2c8",
-    "url": "/sageklein/static/css/main.98908353.chunk.css"
+    "revision": "e6f5fe174f12ff0b24c1",
+    "url": "/sageklein/static/css/main.125a28c8.chunk.css"
   },
   {
-    "revision": "ab59df87bcd053a0d81b",
-    "url": "/sageklein/static/js/2.8155b26c.chunk.js"
+    "revision": "2f39d8d38709ad49a78a",
+    "url": "/sageklein/static/js/2.42b28f11.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/sageklein/static/js/2.8155b26c.chunk.js.LICENSE.txt"
+    "url": "/sageklein/static/js/2.42b28f11.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c4efd8557ad72a78c2c8",
-    "url": "/sageklein/static/js/main.38abcc62.chunk.js"
+    "revision": "e6f5fe174f12ff0b24c1",
+    "url": "/sageklein/static/js/main.de0c7e7b.chunk.js"
   },
   {
     "revision": "befc3b656cc162cd9159",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sageklein/static/media/Hitpan.1ce9a35c.png"
   },
   {
-    "revision": "9264a958bd1fd0a85d3ccebeae1dc83c",
-    "url": "/sageklein/static/media/Sage's Resume.9264a958.pdf"
+    "revision": "cc6b19030e6a381c0d1a432112909a9f",
+    "url": "/sageklein/static/media/SageResume.cc6b1903.pdf"
   },
   {
     "revision": "c465f1a197b82d03bd7d9f50eb3876c6",
@@ -82,5 +82,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a2e9b7c1a25043babe15db454814857c",
     "url": "/sageklein/static/media/tictac.a2e9b7c1.png"
+  },
+  {
+    "revision": "8a2cc1cba7294a982db59e2712d43835",
+    "url": "/sageklein/static/media/website35.8a2cc1cb.png"
   }
 ]);
