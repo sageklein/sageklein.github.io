@@ -7,8 +7,6 @@ body{
   font-size: 16px;
 	background-image: url(./images/tictac.png);
   font-family: 'Libre Franklin', sans-serif;
-  line-height: 2.5em;
-
   margin: 0;
   padding: 0;
 }
@@ -31,14 +29,12 @@ body{
 /* ________________________________ */
 /* NAME AND TITLE AND BUTTONS */
 .header-title1 {
-  display: flex;
-  flex-direction: row;
-  padding-top: 1em;
-  font-family: 'Open Sans Condensed', 'sans-serif';
-  line-height: 1em;
-  font-size: 5em;
+  font-family: 'oswald', sans-serif;
+  line-height: 1.2em;
+  font-size: 4em;
   color: #404040;
-  padding-bottom: .5em;
+  padding-top: 2em;
+  padding-bottom: -3em;
 }
 .name {
   display: none;
@@ -55,7 +51,8 @@ h2{
   background: #FFD3DA;
   border: 0px;
   font-size: 1.2em;
-  padding: .2em 3em;
+  padding: 1em 4em;
+  border-radius: .2em;
   transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -84,7 +81,7 @@ nav{
   display: flex;
   justify-content: flex-end;
   background-color: white;
-  padding-top: 1em;
+  padding-top: 2em;
   top: 0;
   width: 100%;
   position: sticky;
@@ -92,13 +89,14 @@ nav{
 nav li{
   display: inline-block;
   cursor: pointer;
-    top: 0;
+  top: 0;
 }
 nav li .link{
   text-decoration: none;
-  font-size: 1.2em;
+    font-family: 'Open Sans Condensed', 'sans-serif';
+  font-size: 2em;
   color: black;
-  padding:1em;
+  padding:.8em;
   opacity: .8;
   top: 0;
   transition: all 0.3s ease-in-out;
@@ -120,20 +118,16 @@ li .link:hover{
 
 /* ________________________________ */
 /* ABOUT SECTION */
-.about{
-  display: flex;
-  flex-direction: column;
-
-}
+.about
 .work{
   display: flex;
   flex-direction: column;
 
 }
 .work-content h1{
-font-family: 'Open Sans Condensed', 'sans-serif';
-    padding-top: 2.5em;
-    font-size: 5em;
+  font-family: 'Open Sans Condensed', 'sans-serif';
+  padding-top: 2.5em;
+  font-size: 5em;
 
   text-align: left;
 }
@@ -252,14 +246,14 @@ font-family: 'Open Sans Condensed', 'sans-serif';
   top:2em;
   padding: 1em;
   color:#404040;
-  padding-left: 70%;
+  padding-left: 75%;
 }
 .footer a{
   text-decoration: none;
   color:#FFD3DA;
 }
 .blurb{
-  font-size: 1.5em;
+  font-size: 1.4em;
   max-width: 35em;
   line-height: 1.5em;
   padding-left: 1em;
@@ -300,6 +294,10 @@ header h1{
   text-decoration: none;
 }
 .name{
+  font-family: 'oswald', sans-serif;
+  font-size: 1.7em;
+  color: #404040;
+  padding-top: 1em;
   display: flex;
   align-self: center;
 }
@@ -310,7 +308,7 @@ nav{
   background: #FFD3DA;
   border: 0px;
   font-size: 1.2em;
-  padding: .2em 3em;
+  padding: 1em 4em;
   transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -320,7 +318,7 @@ nav{
 .about .work{
   position: relative;
   display: flex;
-  top:-30em;
+  top:-20em;
 }
 .picture{
 	margin-left: -30em;
@@ -335,16 +333,16 @@ nav{
 .about-content 
 .work-content h1{
   font-family: 'Open Sans Condensed', 'sans-serif';
-  padding-top: 4em;
+  padding-top: 3em;
   font-size: 5em;
   text-align: left;
 }
 .about-content 
-.work-content p{
-  font-size: 2.5em;
+p{
+  font-size: 2em;
   font-family: 'Libre Franklin', sans-serif;
   line-height: 1.5em;
-  padding-top: 5em;
+  padding-top: 1em;
   text-align: left;
   width: 450px;
 }
@@ -355,11 +353,11 @@ nav{
 .about{
   left:0em;
   top:2em;
-  padding-bottom: 2em;
+  padding-bottom: 0em;
   align-items: flex-start;
 }
 .work-content
-.about-content{
+.about-content {
   display: 'flex';
   flex-direction: 'column'; 
   flex-wrap: wrap;
@@ -401,7 +399,7 @@ nav{
 .footer{
   top:4em;
   padding: 1em;
-  font-size: 2em;
+  font-size: 1em;
 }
 .blurb{
   font-size: 1.5em;
