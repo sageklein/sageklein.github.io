@@ -17,7 +17,6 @@ body{
   top: 0; 
   padding-left: 2em;
   padding-right: 2em;
-
 }
 .allProjects{
   display: flex;
@@ -132,10 +131,9 @@ li .link:hover{
   text-align: left;
 }
 .about-content h1{
-font-family: 'Open Sans Condensed', 'sans-serif';
-    padding-top: 2.5em;
-    font-size: 5em;
-
+  font-family: 'Open Sans Condensed', 'sans-serif';
+  padding-top: 2.5em;
+  font-size: 5em;
   text-align: left;
 }
 .about-content p{

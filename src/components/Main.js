@@ -19,7 +19,10 @@ class Main extends Component {
 
 						<Fade bottom>
 							<div className="img">
+							<div className="abouttext">
 								<p>{data.abouttext}</p>
+								<p>{data.abouttext2}</p>
+							</div>
 								<img
 									src={require("../images/me.jpg")}
 									className="picture"
@@ -31,17 +34,17 @@ class Main extends Component {
 				</div>
 				<div className="work-content">
 					<div className="work">
-					<h1>
-						<Fade bottom cascade>
-							Work.
+						<h1>
+							<Fade bottom cascade>
+								Work.
+							</Fade>
+						</h1>
+						<Fade bottom>
+							<p className="intro-content">{data.intro}</p>
+							<p className="intro-content">{data.intro2}</p>
+							<p className="intro-content">{data.intro3}</p>
 						</Fade>
-					</h1>
-					<Fade bottom>
-						<p className="intro-content">{data.intro}</p>
-						<p className="intro-content">{data.intro2}</p>
-						<p className="intro-content">{data.intro3}</p>
-					</Fade>
-</div>
+					</div>
 					<div className="allProjects">
 						<Fade bottom>
 							<div className="img_block">
@@ -298,7 +301,6 @@ class Main extends Component {
 								</div>
 							</div>
 						</Fade>
-
 					</div>
 				</div>
 			</div>
