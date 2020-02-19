@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/sageklein/static/css/main.ba6d2a22.chunk.css",
-    "main.js": "/sageklein/static/js/main.de0c7e7b.chunk.js",
-    "main.js.map": "/sageklein/static/js/main.de0c7e7b.chunk.js.map",
+    "main.css": "/sageklein/static/css/main.6fa3b753.chunk.css",
+    "main.js": "/sageklein/static/js/main.45fbc3d2.chunk.js",
+    "main.js.map": "/sageklein/static/js/main.45fbc3d2.chunk.js.map",
     "runtime-main.js": "/sageklein/static/js/runtime-main.aa154323.js",
     "runtime-main.js.map": "/sageklein/static/js/runtime-main.aa154323.js.map",
     "static/css/2.47e06e2e.chunk.css": "/sageklein/static/css/2.47e06e2e.chunk.css",
     "static/js/2.42b28f11.chunk.js": "/sageklein/static/js/2.42b28f11.chunk.js",
     "static/js/2.42b28f11.chunk.js.map": "/sageklein/static/js/2.42b28f11.chunk.js.map",
     "index.html": "/sageklein/index.html",
-    "precache-manifest.5b9b9c416b80cbd8412f5d27dd05d551.js": "/sageklein/precache-manifest.5b9b9c416b80cbd8412f5d27dd05d551.js",
+    "precache-manifest.712564eb39201744db6546e0ab9c0917.js": "/sageklein/precache-manifest.712564eb39201744db6546e0ab9c0917.js",
     "service-worker.js": "/sageklein/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/sageklein/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.ba6d2a22.chunk.css.map": "/sageklein/static/css/main.ba6d2a22.chunk.css.map",
+    "static/css/main.6fa3b753.chunk.css.map": "/sageklein/static/css/main.6fa3b753.chunk.css.map",
     "static/js/2.42b28f11.chunk.js.LICENSE.txt": "/sageklein/static/js/2.42b28f11.chunk.js.LICENSE.txt",
     "static/media/BangazonDashboard.png": "/sageklein/static/media/BangazonDashboard.8e0675f7.png",
     "static/media/BangazonFigma.png": "/sageklein/static/media/BangazonFigma.52ab038b.png",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.aa154323.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.42b28f11.chunk.js",
-    "static/css/main.ba6d2a22.chunk.css",
-    "static/js/main.de0c7e7b.chunk.js"
+    "static/css/main.6fa3b753.chunk.css",
+    "static/js/main.45fbc3d2.chunk.js"
   ]
 }
