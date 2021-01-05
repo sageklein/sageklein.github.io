@@ -68,4 +68,3 @@ https://reactjs.org
 6. Run json-server in port 5002 with database.json
 7. In the terminal, type the command "npm start".
 
-# Sage Klein's PersonalSite
