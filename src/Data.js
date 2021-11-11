@@ -36,7 +36,7 @@ export default {
 		"Knowing the users story, creating their empathy maps, documenting their pain points and overall needs helps me start with an idea of who the user is.",
 
 	intro2:
-		"From there I can create Personas that the project may refer to while moving forward. Contextual inquiry and journey mapping help me develop diagrams that will depict stages the user will interact with while navigating my project. Having this information helps guid my preliminary wireframes, or Lo-Fi Mockups, which are essential for user testing. Through user testing I can evaluate a project or product feature in a easily updated prototype to evaluate real user interaction.",
+		"From there I can create Personas that the project may refer to while moving forward. Contextual inquiry and journey mapping help me develop diagrams that will depict stages the user will interact with while navigating the project. Having this information helps guide my preliminary wireframes, or Lo-Fi Mockups, which are essential for user testing. Through user testing I can evaluate a project in an easily updated prototype to evaluate real user interaction.",
 
 	intro3:
 		"Any number of these steps may be revisited to inform the stages leading up to coding a project. Finally High fidelity mockups help me to visualize the finally stages of the project before coding begins.",

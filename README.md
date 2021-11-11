@@ -4,6 +4,8 @@ Creator: Sage Klein
 
 Email Address: sageklein@gmail.com
 
+Website Address: www.sageklein.com
+
 LinkedIn: https://www.linkedin.com/in/sage-klein/
 
 Slack Handle: Sage Klein
@@ -12,30 +14,20 @@ Github: (https://github.com/sageklein)
 
 ## About Me:
 
-As a Front End Web Developer I am passionate about combining my love of coding with my love of continued learning. With UI/UX and strong communication skills I produce beautiful and well thought out design work. With a positive attitude and strong growth mindset, I am self motivated and work well in groups!
-
-I have a real passion for coding and UI UX design!
+As a Front End Web Developer I am passionate about combining my love of coding with my love of continued learning. With my UI/UX training and strong communication skills I produce beautiful and well thought out design work. With a positive attitude and strong growth mindset, I am self motivated and work well in groups. Empathy, persistence, curiosity and an obsession with details are my motivating factors when designing.
 
 ### Projects
 
-Hit Pan
+Make-up Tracjing Application: https://github.com/sageklein/Hit-Pan
 
-Bangazon
+Behavioral Modification Application: https://github.com/sageklein/Sidekick2.0
 
-Cohort 35 website 
+Dog Kennel Application: https://github.com/sageklein/Kennel43
 
+Online Fish & Fish Accessories Application: https://github.com/nss-day-cohort-35/bangazon
 
-### Personas
+Website built for Nashville Software School's Cohort 35: https://nss-day-cohort-35.github.io/website/
 
-I have built several Personas to use along side projects. 
-
-### Research
-
-Upon login a user will be able to search a make-up API to add make up to their wish list or collection.
-
-### Persona Examples:
-
-![Persona Example](src/images/Persona2.png)
 
 ### Hi-Fi Mpock-up Examples
 
@@ -74,4 +66,5 @@ https://reactjs.org
 4. In the API directory, create a file called "database.json"
 5. Copy the sample data below into database.json
 6. Run json-server in port 5002 with database.json
-7. In the terminal, type the command "npm start".# PersonalSite
+7. In the terminal, type the command "npm start".
+
