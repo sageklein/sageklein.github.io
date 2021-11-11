@@ -14,7 +14,7 @@ Github: (https://github.com/sageklein)
 
 ## About Me:
 
-As a Front End Web Developer I am passionate about combining my love of coding with my love of continued learning. With my UI/UX training and strong communication skills I produce beautiful and well thought out design work. With a positive attitude and strong growth mindset, I am self motivated and work well in groups. Empathy, persistence, curiosity and an obsession with details are my motivating factors when designing.
+I have a positive attitude and strong growth mindset, I have empathy, curiosity and a strong aesthetic sense of how features and functions fit together to create beautiful designs not just fit for use - but intuitive and delightful.
 
 ### Projects
 
