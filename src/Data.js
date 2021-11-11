@@ -6,7 +6,7 @@ import Research from "./images/research.jpg";
 import Mapping from "./images/journeyMapping.jpg";
 import empathy from "./images/mapping.jpg";
 import BangazonDashBoard from "./images/BangazonDashboard.png";
-import resume from "./images/SageResume.pdf"
+import resume from "./images/resume.pdf"
 import addComputer from "./images/addComputer.png"
 
 export default {
@@ -26,20 +26,20 @@ export default {
 	contactEmail: "sageklein@gmail.com",
 	// Add Your About Text Here
 	abouttext:
-		"As a Front End Web Developer I am passionate about combining my love of coding with my love of continued learning. With my UI/UX trailing and strong communication skills I produce beautiful and well thought out design work. With a positive attitude and strong growth mindset, I am self motivated and work well in groups. Empathy, persistence, curiosity and an obsession with details are my motivating factors when designing.",
+		"I have a positive attitude and strong growth mindset, I have empathy, curiosity and a strong aesthetic sense of how features and functions fit together to create beautiful designs not just fit for use - but intuitive and delightful.",
 	abouttext2:
-		"When I'm not working on projects or coding, I love to watch boxing! My favorite boxer is Gennadiy Gennadyevich Golovkin. I have a bag at home and love to shadow box! I also enjoy needling point and cross stitch. I am a very creative person with lots of diverse hobbies. I also love animals, I have 2 cats and a 14 year old Sulcata Tortoise!",
+		"When I'm not working on projects or coding, I love to watch boxing. My favorite boxer is Gennadiy Gennadyevich Golovkin. I have a bag at home and love to shadow box. I also enjoy needling point, make-up, rollerblading and watching documentaries. I also love animals, I have 2 cats and a 14 year old Sulcata Tortoise.",
 	aboutImage: me,
 	ShowAboutImage: true,
 
 	intro:
-		"With most UI/UX and coding project I rely heavily on user interviews to begin. Knowing the users story, creating their empathy maps, documenting their pain points and overall needs helps me start with an idea of who the user is.",
+		"Knowing the users story, creating their empathy maps, documenting their pain points and overall needs helps me start with an idea of who the user is.",
 
 	intro2:
 		"From there I can create Personas that the project may refer to while moving forward. Contextual inquiry and journey mapping help me develop diagrams that will depict stages the user will interact with while navigating my project. Having this information helps guid my preliminary wireframes, or Lo-Fi Mockups, which are essential for user testing. Through user testing I can evaluate a project or product feature in a easily updated prototype to evaluate real user interaction.",
 
 	intro3:
-		"Any number of these steps may be revisited to inform th stages leading up to coding a project. Finally High fidelity mockups help me to visualize the finally stages of the project before coding begins.",
+		"Any number of these steps may be revisited to inform the stages leading up to coding a project. Finally High fidelity mockups help me to visualize the finally stages of the project before coding begins.",
 	projects: [
 		{
 			id: 1,
