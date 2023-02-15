@@ -1,4 +1,4 @@
-import me from "./images/me.jpg";
+import me from "./images/me3.jpeg";
 import Employee from "./images/Employee1.png";
 import Lofi from "./images/lofi_2.gif";
 import Bangazon from "./images/BangazonFigma.png";
