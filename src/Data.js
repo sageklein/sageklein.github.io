@@ -17,7 +17,7 @@ export default {
 		//Line 1 For Header
 		"Sage Klein",
 		//Line 2 For Header
-		"UX/UI Application Designer",
+		"UX/UI Product Designer",
 		//Line 3 For Header
 		"Nashville TN"
 	],
@@ -28,7 +28,7 @@ export default {
 	abouttext:
 		"I have a positive attitude and strong growth mindset, I have empathy, curiosity and a strong aesthetic sense of how features and functions fit together to create beautiful designs not just fit for use - but intuitive and delightful.",
 	abouttext2:
-		"When I'm not working on projects or coding, I love to watch boxing. My favorite boxer is Gennadiy Gennadyevich Golovkin. I have a bag at home and love to shadow box. I also enjoy needling point, make-up, rollerblading and watching documentaries. I also love animals, I have 2 cats and a 14 year old Sulcata Tortoise.",
+		"When I'm not working on projects or coding, I love to watch boxing. My favorite boxer is Gennadiy Gennadyevich Golovkin. I am currently taking Tia Chi. I enjoy needling point, painting, creating digital art and watching documentaries. I also love animals, I have 2 cats and a 14 year old Sulcata Tortoise.",
 	aboutImage: me,
 	ShowAboutImage: true,
 
